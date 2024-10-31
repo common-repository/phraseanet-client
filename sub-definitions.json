@@ -1,0 +1,65 @@
+{
+    "wp_image_downloads": [
+        "document",
+        "preview"
+    ],
+    "wp_image_permalinks": [
+        "preview"
+    ],
+    "wp_video_downloads": [
+        "document",
+        "preview"
+    ],
+    "wp_video_permalinks": [
+        "preview"
+    ],
+    "wp_audio_downloads": [
+        "document",
+        "preview"
+    ],
+    "wp_audio_permalinks": [
+        "preview"
+    ],
+    "wp_document_downloads": [
+        "document"
+    ],
+    "wp_document_permalinks": [
+        "preview"
+    ],
+    "wp_image_thumbnail": [
+        "thumbnail"
+    ],
+    "wp_image_preview": [
+        "preview"
+    ],
+    "wp_document_thumbnail": [
+        "thumbnail"
+    ],
+    "wp_document_preview": [
+        "preview"
+    ],
+    "wp_video_thumbnail": [
+        "thumbnail"
+    ],
+    "wp_video_preview": [
+        "preview"
+    ],
+    "wp_audio_thumbnail": [
+        "thumbnail"
+    ],
+    "wp_audio_preview": [
+        "preview"
+    ],
+    "wp_image_embed": [
+        "preview"
+    ],
+    "wp_video_embed": [
+        "preview"
+    ],
+    "wp_document_embed": [
+        "preview"
+    ],
+    "wp_audio_embed": [
+        "preview"
+    ]
+}

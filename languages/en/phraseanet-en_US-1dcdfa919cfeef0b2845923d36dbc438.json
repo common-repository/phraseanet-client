@@ -1,0 +1,21 @@
+{
+    "translation-revision-date": "",
+    "generator": "WP-CLI\/2.5.0",
+    "source": "public\/src\/components\/LoggedIn.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en_US",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "You are logged in as": [
+                ""
+            ],
+            "Logout": [
+                ""
+            ]
+        }
+    }
+}

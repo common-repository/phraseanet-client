@@ -1,0 +1,228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: phraseanet_client\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Nicolas Maillat <maillat@alchemy.fr>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/phraseanet-wordpress-client-plugin/phraseanet-wordpress-client-plugin/fr/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-17 18:43+0530\n"
+"PO-Revision-Date: 2021-05-20 16:36+0000\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Weblate 4.7-dev\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SearchPath-0: public\n"
+"X-Poedit-SearchPath-1: admin/partials\n"
+"X-Poedit-SearchPath-2: dist/editor.js\n"
+
+#: admin/partials/phraseanet-admin-display-auth.php:26
+#: admin/partials/phraseanet-admin-display-other-settings.php:26
+msgid "Phraseanet client plugin"
+msgstr "Plugin client Phraseanet"
+
+#: admin/partials/phraseanet-admin-display-auth.php:59
+msgid "Auth Phraseanet with token"
+msgstr "Auth Phraseanet avec jeton"
+
+#: admin/partials/phraseanet-admin-display-auth.php:67
+msgid "Auth Phraseanet with username and password"
+msgstr "Auth Phraseanet avec nom d'utilisateur et mot de passe"
+
+#: admin/partials/phraseanet-admin-display-auth.php:81
+msgid "Phraseanet URL"
+msgstr "URL de Phraseanet"
+
+#: admin/partials/phraseanet-admin-display-auth.php:83
+#, fuzzy
+msgid "Enter your phraseanet url"
+msgstr "URL de  l'instance Phraseanet"
+
+#: admin/partials/phraseanet-admin-display-auth.php:90
+#: public/partials/phraseanet-public-auth-form-display.php:56
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: admin/partials/phraseanet-admin-display-auth.php:92
+msgid "Enter your phraseanet Username"
+msgstr "Entrez votre nom d'utilisateur phraseanet"
+
+#: admin/partials/phraseanet-admin-display-auth.php:97
+#: public/partials/phraseanet-public-auth-form-display.php:61
+msgid "Password"
+msgstr "Mot de passe"
+
+#: admin/partials/phraseanet-admin-display-auth.php:99
+msgid "Enter your phraseanet Password"
+msgstr "Entrez votre mot de passe phraseanet"
+
+#: admin/partials/phraseanet-admin-display-auth.php:107
+#, fuzzy
+msgid "Client id"
+msgstr "Client id"
+
+#: admin/partials/phraseanet-admin-display-auth.php:109
+msgid "Enter your phraseanet client id"
+msgstr "Entrez votre identifiant de client phraseanet"
+
+#: admin/partials/phraseanet-admin-display-auth.php:114
+#, fuzzy
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: admin/partials/phraseanet-admin-display-auth.php:116
+msgid "Enter your phraseanet client secret"
+msgstr "Entrez votre secret client phraseanet"
+
+#: admin/partials/phraseanet-admin-display-auth.php:122
+msgid "Token"
+msgstr "Jeton"
+
+#: admin/partials/phraseanet-admin-display-auth.php:124
+msgid "Enter your Token"
+msgstr "Entrez votre jeton"
+
+#: admin/partials/phraseanet-admin-display-auth.php:126
+msgid "Generate token in phraseanet and add it here"
+msgstr "Générez un jeton dans phraseanet et ajoutez-le ici"
+
+#: admin/partials/phraseanet-admin-display-auth.php:135
+#: dist/editor.js:400
+#, fuzzy
+msgid "User must be authenticated with Phraseanet Account to access records"
+msgstr "L'utilisateur doit être authentifié avec un compte Phraseanet pour accéder au contenus"
+
+#: admin/partials/phraseanet-admin-display-auth.php:138
+#: admin/partials/phraseanet-admin-display-other-settings.php:74
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:41
+msgid "Phraseanet setting"
+msgstr "Paramètre Phraseanet"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:45
+msgid "Number of records per page"
+msgstr "Nombre d'enregistrements par page"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:47
+msgid "Enter Number Eg. 50"
+msgstr "Entrer un nombre Eg 50"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:49
+msgid "Default is 50 records per page"
+msgstr "La valeur par défaut est de 50 enregistrements par page"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:56
+msgid "UI"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:59
+msgid "Modal backgorund color"
+msgstr "Couleur de fond modal"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:61
+#: admin/partials/phraseanet-admin-display-other-settings.php:69
+msgid "Color"
+msgstr "Couleur"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:63
+msgid "to make it transparent or any color value like"
+msgstr "pour le rendre transparent ou toute valeur de couleur comme"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:63
+msgid "Blue"
+msgstr "Bleu"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:63
+msgid "to make solid background"
+msgstr "faire un fond solide"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:67
+msgid "Modal font color"
+msgstr "Couleur de police modale"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:71
+msgid "White"
+msgstr "Blanc"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:71
+msgid "Red"
+msgstr "Rouge"
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:71
+msgid "or any"
+msgstr "ou tout"
+
+#: public/partials/phraseanet-public-auth-form-display.php:29
+msgid "Invalid login creadentials!"
+msgstr "Authentification invalide!"
+
+#: public/partials/phraseanet-public-auth-form-display.php:33
+msgid "Please submit valid Username and password"
+msgstr "Veuillez soumettre un nom d'utilisateur et un mot de passe valides"
+
+#: public/partials/phraseanet-public-auth-form-display.php:50
+msgid "Phraseanet Login"
+msgstr "Connexion Phraseanet"
+
+#: public/partials/phraseanet-public-auth-form-display.php:66
+msgid "Login"
+msgstr "Connexion"
+
+#: public/partials/phraseanet-public-display.php:89
+msgid "Search"
+msgstr "Rechercher"
+
+#: public/partials/phraseanet-public-display.php:92
+msgid "All"
+msgstr "Tout"
+
+#: public/partials/phraseanet-public-display.php:93
+msgid "Images"
+msgstr "Images"
+
+#: public/partials/phraseanet-public-display.php:94
+msgid "Videos"
+msgstr "Vidéos"
+
+#: public/partials/phraseanet-public-display.php:100
+msgid "Record"
+msgstr "Enregistrer"
+
+#: public/partials/phraseanet-public-display.php:101
+msgid "Story"
+msgstr "Histoire"
+
+#: public/partials/phraseanet-public-display.php:107
+msgid "Sort"
+msgstr "Sorte"
+
+#: public/partials/phraseanet-public-display.php:108
+msgid "Relevance"
+msgstr "Pertinence"
+
+#: public/partials/phraseanet-public-display.php:109
+msgid "Created on"
+msgstr "Créé sur"
+
+#: public/partials/phraseanet-public-display.php:110
+msgid "Updated on"
+msgstr "Mis à jour le"
+
+#: public/partials/phraseanet-public-display.php:116
+msgid "Order by"
+msgstr "Commandé par"
+
+#: public/partials/phraseanet-public-display.php:117
+msgid "Ascending"
+msgstr "Ascendant"
+
+#: public/partials/phraseanet-public-display.php:118
+msgid "Descending"
+msgstr "Descendant"
+
+#~ msgid "Settings"
+#~ msgstr "Paramètres"

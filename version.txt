@@ -1,0 +1,4197 @@
+* origin/1.1-freemius
+commit 0b35531659a173b8228b8973e8915bbb9c8b7361
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 24 12:16:58 2022 +0100
+
+    fix: PC-52 dropdown stoped working
+    
+    fix: PC-52 dropdown stoped working when upgraded the bootstrap from version 4 to version 5.
+    The data-* attributes used in Bootstrap 4 have been replaced with data-bs-* in Bootstrap 5
+
+commit 28c9c4846815e34252e82195b9136201e097ff0c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 24 11:41:54 2022 +0100
+
+    fix: PC-52 sanitize session and encapsulate them
+    
+    fix: PC-52 sanitize session and encapsulate them
+
+commit a595e64bcdc949e88f2c5106e698b801a05b9074
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 23 16:49:50 2022 +0100
+
+    fix: PC-52 Remove dev files from prod
+    
+    fix: PC-52 Remove dev files from prod and fix webpack.config. remove custom js since we are completely using the reactJs.
+
+commit c69c9c930b00136ed988d11a24b18207e3499ab3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 23 16:33:42 2022 +0100
+
+    fix: PC-52 Add esc_attr and esc_url on php echo
+    
+    fix: PC-52 Add esc_attr and esc_url on php echo.
+
+commit d6bd67c6337d4ef6f2ec18d2c5a09943c2931aee
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 22 16:30:56 2022 +0100
+
+    chore: add new line in readme
+
+commit 58568ca1e35aabde54ad3a9619c7e29dbf828101
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 22 16:29:45 2022 +0100
+
+    remove: PC-52 deprecated  file
+
+commit 6c82b6b727e9662d39dad54334ed55bec7024d79
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 22 16:29:00 2022 +0100
+
+    refactor: PC-52 PSR
+
+commit 28caf23057660535310e8fa5af976064d4e8784b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 22 16:01:40 2022 +0100
+
+    fix: PC-48 when fetching collections in the admin. we are getting the all the collection from the Data-box even user doesn't have the rights of those collection.
+    
+    fix: PC-48 when fetching collections in the admin. we are getting the all the collection from the Data-box even user doesn't have the rights of those collection.
+
+commit 8968a74a9081d8d8943591102b726efa04101f65
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 22 13:51:06 2022 +0100
+
+    fix: PC-52 more changes in the code for WP compatibility
+
+commit 7abe0ea378a272ede926441118a0346b92fd492f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 22 13:07:16 2022 +0100
+
+    remove:
+
+commit 0d9f0fdfd246060fcef19c8c5cb0a68eea1cba12
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 22 12:48:10 2022 +0100
+
+    add: security scan test1
+
+commit a016d37c15b8ea1f468221d945c343ece69e8d6b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Feb 21 17:36:11 2022 +0100
+
+    fix: PC-52 fix warning of undefined index
+
+commit 261a44a4d1724618d9ef8c250bfb285de6b4e698
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Feb 21 17:17:20 2022 +0100
+
+    fix: PC-52 fix for render preview of the page
+    
+    add: sanitization on the user inputs.
+    refactor: the code is now compatible
+
+commit 0e0a087a65232ca994c331ffa381d56fb819304b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 17 17:54:39 2022 +0100
+
+    fix: PC-52 Sanitized, Escaped, and Validated all the inputs and remove error reporting from production code
+
+commit 938f366203fb065d4279410d89ebe9234ae87d59
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 17 17:53:40 2022 +0100
+
+    fix: PC-52 Dependency upgrade
+
+commit 4d8783b92c3550765b47a2aae89eb1469348fc7a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 17:05:05 2022 +0100
+
+    fix: PC-48  Freemius secret key as ENV VAR and should not be in the code
+    
+    fix: PC-48 for account security remove Freemius secret key and move it to .env from there we can use it as ENV VAR. Freemius secret key should not be inside the code
+
+commit 1f43e1408f4fe2a82747f9addf401398ce3fb762
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 14:28:57 2022 +0100
+
+    chore: PC-48 update the description to match the readme.txt description
+
+commit 3b72ceebc27bdcc5cacfae68678f99c97115d9b1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 14:24:02 2022 +0100
+
+    chore: PC-48 rename the plugin to make it compatible with WP.org
+    
+    chore: PC-48 rename the plugin to make it compatible with WP.org
+
+commit e903cdd9d5b6038b9d332f12c996b83a43a07a34
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 14:23:02 2022 +0100
+
+    chore: PC-48 add dir's to exclude from the final build
+    
+    chore: PC-48 add dir's to exclude from the final build
+
+commit 9d94dccaf4e7eda9d32b0421818deeea3e1c7158
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 14:22:23 2022 +0100
+
+    chore: PC-48 set the plugin image
+    
+    chore: PC-48 set the plugin image when activating the plugin.
+
+commit a12532045744c93426354f934c63131f004609b1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 14:17:30 2022 +0100
+
+    fix: PC-48 change the slug to match the WP slug
+
+commit 2fa6f3b6e8f1f3749919f63bba8dd6017a544ab3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 14:17:00 2022 +0100
+
+    remove: PC-48 deprecated file
+
+commit 005d34124a1ea3fc09be991270dd6db9bcf12a1e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 11:19:18 2022 +0100
+
+    fix: PC-48 add pricing plans
+
+commit 639af9c7552339a2457e1bab6919ade65592cdc7
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 09:48:54 2022 +0100
+
+    fix: PC-48 scroll issue
+
+commit 27a99fc33e94d1aca361301e3f6648000c7bf7c6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 09:48:21 2022 +0100
+
+    update: PC-48 Readme for WP
+
+commit 93ed6d7856da0710273452b5c3c687a5a79b0b11
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 09:47:40 2022 +0100
+
+    PC-48 added the GNU V3 license
+
+commit f7b2c52eca0b4b858e319688fefc25291bccd400
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 16 09:47:14 2022 +0100
+
+    fix: PC-48 move freemius sdk at top level of plugin
+
+commit 4a745a5d688cd34c512c5de7327ee4864dbb956c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Feb 14 11:58:30 2022 +0100
+
+    feat: PC-48 Admin can choose the masonry image rendering styles
+    
+    feat: PC-48 Admin can choose the masonry image rendering styles. There are two option Auto that will detect the image dimensions and renders it And Random as the name suggests it will generate the random styles.
+
+commit a6eec97ef4bfd11a145d9a2d322b207c262d46df
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Feb 11 16:30:14 2022 +0100
+
+    feat: PC-48 Stop scrolling when loading
+    
+    feat: PC-48 Stop scrolling when loading
+
+commit 7f369c4dd392e63f81e3fdfff05aa9f0a7b71c2c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Feb 11 16:28:31 2022 +0100
+
+    fix: PC-48 when facets hide utilize the full width and feat: Stop scrolling when loading
+    
+    fix: PC-48 when facets hide utilize the full width and feat: Stop scrolling when loading
+
+commit 197b13785f34414601db4759b0bc65a31fe15a6d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Feb 11 16:27:56 2022 +0100
+
+    fix: PC-48 when facets hide utilize the full width and feat: Stop scrolling when loading
+    
+    fix: PC-48 when facets hide utilize the full width and feat: Stop scrolling when loading
+
+commit 915ee15301e0f792b5c1c70c5ec56f12d12eaebe
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 9 16:21:10 2022 +0100
+
+    fix: PC-48
+
+commit a0699e17f9e7b12ff13cfc86efe6b634bc109fb9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 9 16:21:04 2022 +0100
+
+    fix: PC-48 allow button to show hide the content when image or content is too big
+
+commit c45005b69caba434aa2f9215628c7d2057685a1a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 9 16:20:28 2022 +0100
+
+    fix: PC-48 increase the size of the images when open in overlay mode
+
+commit b254c306331357ecbefad9824ebad013427eed00
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 9 16:19:54 2022 +0100
+
+    fix: PC-48 overlay a semi transparent background when loading
+
+commit 593f35d7a8e132c6c52a3d9e13f451d0fa55f179
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Feb 9 16:19:19 2022 +0100
+
+    fix: PC-48 stop the scroll bar when loading the content
+
+commit 9d107bd78808bb1d6f5431dd43d17c10388a1f6a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:18:36 2022 +0100
+
+    refactor: PC-48 refactor the preview with new license activator class to access the license methods
+
+commit cfd9c93618061af194efc35e7b4482c794eebb1d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:17:45 2022 +0100
+
+    refactor: PC-48 change the method name
+
+commit 7cda2442d92231911b13608643406c7cb67f3d42
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:17:22 2022 +0100
+
+    refactor: PC-48 change the method name
+
+commit 8f52cb52df1713369d590b110aabba5d8ddde401
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:16:57 2022 +0100
+
+    refactor: PC-48 load the license
+
+commit f7535e6fd7d0e97406e4521a68aa0cfda87a21f0
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:16:14 2022 +0100
+
+    refactor: PC-48 add the license handler class into plugin main class
+    
+    refactor: PC-48 add the license handler class into plugin main class to access the license methods everywhere and int the license on activation of the plugin
+
+commit 5408c661c4280f3e0ed64555d860c13857560da9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:15:10 2022 +0100
+
+    refactor: PC-48 Added new class to handle the license methods
+
+commit 5b4aa38109d630e6b5fed2982fbd6b0638d224f7
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:14:40 2022 +0100
+
+    refactor: PC-48 rename method
+    
+    Since we have a single common name
+
+commit 4308370926d5523760460056ab29bf835a07fb43
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:14:00 2022 +0100
+
+    refactor: PC-48 Organize the file and added the config strings in one file
+
+commit 9cdc863108636f3fb98a9322d90bde0baa31137d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:12:16 2022 +0100
+
+    chore: increase the number of records are required by plugin
+
+commit 03ee9f7eab45eb7e7e5a5a8efc0df2e300595c90
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:11:14 2022 +0100
+
+    refactor: changed the name of the method
+
+commit 9e135d139930085fd71ab1045f18ac3f442dd32e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:10:03 2022 +0100
+
+    PC-48 remove this file is not necessary anymore
+
+commit 0c1ea49676981d9bf3f36c6f824fc0fd23f1ed8c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Feb 8 19:09:08 2022 +0100
+
+    fix: PC-48 Issue: when number of records are less thn 50 in the admin the scroll doesn't work.
+
+commit 3e4782511abd9c722d8b883138f8c22109b8f17a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Feb 7 16:24:58 2022 +0100
+
+    fix: PC-48 default enable facets until admin choose to hide
+
+commit 123bd488819ce39a8217de068377a5f77bad8102
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Feb 7 16:08:49 2022 +0100
+
+    fix: PC-48 fix document thumbnail
+
+commit 927ee5339b13e94b1be5d1d85714e9b0dc9385ab
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Feb 7 15:30:03 2022 +0100
+
+    fix: PC-48 fix document thumbnail
+
+commit b207bbdf31d0b8e4e38c8368434005e497622d68
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Feb 7 14:58:08 2022 +0100
+
+    fix: PC-48 issue request visible if facet are hidden
+
+commit 5dee06f78f742a60d82c02b40badd5c261ea625c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Feb 7 14:56:58 2022 +0100
+
+    fix: PC-48 theme css issue with plugin
+
+commit 21c6cf4599ccc6d2aad5cfcc7ec8a719bccd7b43
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 3 17:34:18 2022 +0100
+
+    feat: PC-48 show hide facet sidebar based on face toggle status
+
+commit ff0a77d2485c5ac2fd4f6d492f4e923e0d646331
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 3 17:33:42 2022 +0100
+
+    feat: PC-48 facet toggled data store into redux
+
+commit 03266e55a0c088b0b6b4376a41c4aa2985e87a00
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 3 17:33:16 2022 +0100
+
+    feat: PC-48 get facet toggle data from api and store into redux
+
+commit fa182c4c561bf26ee1b7fc432a422f91d07bfb04
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 3 17:32:42 2022 +0100
+
+    fix: PC-51 remove invalid js from render view page
+
+commit defa9032b020a47835f94b6ed544f066691b795a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 3 17:31:59 2022 +0100
+
+    feat: PC-48 include the facet sidebar status into api
+
+commit d3017b09d73611d783435b5b7621eac2f21e95fb
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 3 17:31:29 2022 +0100
+
+    feat: PC-48 register action for facet actions
+
+commit 7007bd6afa5c942f7362b678efa2866b5463aa54
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 3 17:31:05 2022 +0100
+
+    feat: PC-48 register meta for facet toggle
+
+commit 799fb0bf4b59eb4ac5ac3996139d23a7e3c910d9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Feb 3 17:30:33 2022 +0100
+
+    feat: PC-48 add toggle btn for enable and disable facets on the front
+    
+    feat: PC-48 add toggle btn for enable and disable facets on the front-end
+
+commit d1358618a78db4e7421086cd0ce369068c5e93e5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:25:41 2022 +0100
+
+    fix
+
+commit d00aac63fcd5ea2d982eaaf6de0333ca4034678f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:22:12 2022 +0100
+
+    fix: PC-51 add margin top in the block title
+
+commit 17d58f2513210368b6e86f9f29c07b2a552a0362
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:21:35 2022 +0100
+
+    feat: PC-51 Rendering page for preview
+    
+    Rendering page for preview. This page re-use the front-end react components.
+
+commit 0e9f8084f7e8dd73745ff2f7dca5bd026fcf9cff
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:20:01 2022 +0100
+
+    feat: PC-51 add config constants
+
+commit 052d9776c80bde12e3e69e4c125399187c1cadca
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:19:22 2022 +0100
+
+    feat: PC-51 a config file feemius
+
+commit ef21148f5e5dae8c64572766bd49e326dc2c7f37
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:18:54 2022 +0100
+
+    fix: PC-51 freemius license check for preview window
+
+commit 31ed38c75cc6c685283131a1f8d2475c8849766a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:18:06 2022 +0100
+
+    fix: Increase php-fpm performance
+
+commit 12edd1ca785d3f8807428d9b9f2b3a3e269f8777
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:17:30 2022 +0100
+
+    fix: PC-51 add cancel token for future use
+
+commit 8af4ec898d7e0392c31773bc1781d52ca6fa2efc
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:17:02 2022 +0100
+
+    feat: PC-51 fix editor style
+    
+    To set our preview window i override the default css
+
+commit bf27fc56a41532ff80226ebfd67ff7e63008f789
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:14:48 2022 +0100
+
+    feat: PC-51 add preview
+    
+    Add embed preview and re-load the embed when save draft or publish
+
+commit 3be19b3813d7ee6b971f26586e64cabc0cf926c4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:11:47 2022 +0100
+
+    fix: add pm.max_children to 30
+    
+    for performance
+    pm.max_children = 30
+    pm.start_servers = 3
+    pm.min_spare_servers = 2
+    pm.max_spare_servers = 4
+
+commit 1d0f81f4a7f4895e10aa193076395fa8d019d6ce
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 31 17:10:28 2022 +0100
+
+    fix: add docker compose build
+
+commit 89f2d14ed4f0624167d6c91bf0009e049ddf8bef
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 28 14:36:15 2022 +0100
+
+    fix: PC-48 in page or post the inserted block under phraseanet-client-block doesn't appear
+    
+    fix: PC-48 in page or post the inserted block under phraseanet-client-block doesn't appear
+
+commit e165e563eb7c0b3a7cc701524385c97735b0744e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 27 15:58:23 2022 +0100
+
+    fix: PC-48 add lodash noConflict
+
+commit b2c634f2be8d55ee55189716984d7dbb7b257591
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 27 15:57:57 2022 +0100
+
+    log when lodash loaded
+
+commit 3b58e432365342dde3382cc9265f8921eb884376
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 27 14:45:21 2022 +0100
+
+    feat: PC-48 add line at the end of the results
+    
+    feat: PC-48 add line at end of answer grid block
+
+commit 4c295538beab5e4ccf05fcab0b911495649d0376
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 27 14:44:19 2022 +0100
+
+    add: PC-48 text bw lines
+
+commit fe59e237c9700d6672c231573d59492882b8f5e7
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 27 14:23:02 2022 +0100
+
+    feat: PC-48 restrict to use more then one block in a post
+    
+    feat: PC-48 restrict to use more then one block in a post.
+    
+    jira issue (forbidden twice block insertion in same post page)
+
+commit 94fc91401d06d9ac0927d072889cc3baca724c72
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 27 14:21:31 2022 +0100
+
+    fix: remove console log
+
+commit 4ae2b0bb2b78285d84a6f6db058736144650fc36
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 17:51:56 2022 +0100
+
+    fix: PC-48 test insert client-block in post, define a requester, saved the post and open it , delete the requester and refresh the post. error in console
+    
+    fix: PC-48
+    test insert client-block in post, define a requester, saved the post and open it , delete the requester and refresh the post. error in console
+
+commit a6e33c40158d1703c2517476f33c919537363bfd
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 17:13:29 2022 +0100
+
+    fix: PC-48 query in requester is not fired when press enter
+
+commit dc28774aaedc6e37c0617af5f7a1d7417bbe917f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 17:13:07 2022 +0100
+
+    fix: class to className
+
+commit c9fed62bf2a1a8cce7c7161f35975dbc00fe1520
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 16:44:12 2022 +0100
+
+    fix: PC-48 additional string to separate sidebar and overlay in the Asset details  component
+    
+    fix: PC-48 additional string to separate sidebar and overlay in the Asset details component each layout has it's styles for the same component.
+
+commit d2f44c8e843048fa696834f7e52bacfd3ff442c9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 16:42:41 2022 +0100
+
+    fix: PC-48 additional style for overlayout
+    
+    fix: PC-48 added a button to move up and down the content because with the increased size of the pdf and video it's not possible fit everything inside the Model
+
+commit 3d7fd7d1bb1cdc8d53aa578b1afb7f2f73e49aa0
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 16:41:05 2022 +0100
+
+    fix: PC-48 add additional styles overlay layout
+
+commit 2b87b3ea04ef4b9244ba087bdbe812f8fa2022c8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:18:39 2022 +0100
+
+    fix: PC-48 move closer btn just above the content
+    
+    fix: PC-48 make the download and permalink button just above the content
+
+commit 0e46472ec895c376c42fec658fa1d11a78dc41b5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:16:41 2022 +0100
+
+    fix: PC-48 add marginTop 12px
+
+commit 36a7cae82f85e377b503642e80fa03420f2d1335
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:08:22 2022 +0100
+
+    feat: PC-48 store permalink list into redux
+    
+    feat: PC-48 store permalink list into redux
+
+commit e2e6950c1fb8dbdbcf249c6611c1561ad96be5b8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:07:53 2022 +0100
+
+    feat: PC-48 save api response for permalink into redux
+    
+    feat: PC-48 save api response for permalink into redux
+
+commit 26f9f89aa093db4c4ae25f30e468ac5addd20f00
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:07:21 2022 +0100
+
+    feat: PC-48 separate download list and permalink list
+    
+    feat: PC-48 separate download list and permalink list
+
+commit 49387461075ae6072ce0a1e56b2080db3a58c4b1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:06:12 2022 +0100
+
+    feat: PC-48 permalink list add into api response
+    
+    feat: PC-48 permalink list add into api response
+
+commit 501a07351e6849f6d5617335f10271388a764316
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:05:36 2022 +0100
+
+    feat: PC-48 register meta for store permalink list
+    
+    feat: PC-48 register meta for store permalink list
+
+commit a9bd4a063fb22952fdde34dcd4e273d111a8de72
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:05:26 2022 +0100
+
+    feat: PC-48 register meta for store permalink list
+    
+    feat: PC-48 register meta for store permalink list
+
+commit ec9505b1a14bbdc6dd099bb091ed4a94456594b2
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 26 13:04:43 2022 +0100
+
+    feat: PC-48 separate the subdef for download and permalink
+    
+    feat: PC-48 separate the subdef for download and permalink
+
+commit e73a76a3cc855b2616f8923ffad2e977459794e9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 25 18:08:56 2022 +0100
+
+    fix: PC-48 grid layout image sizes changes on scroll
+    
+    fix: When we scrolldown the grid image size changes of the previous images that makes scroll to go up down randomly. it's fixed by pre generating the dimensions and assigned them by indexes.
+
+commit d2ec566f73e1399da95a3c54172cbe53c94fb15f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 25 18:05:32 2022 +0100
+
+    fix: PC-48 newly added assets subdef not showing
+    
+    fix: One we add subdef in a post and add subdef in phraseanet they won't show in saved post of WP.
+
+commit 03c18a60711ed38e3dfa36b2e80531f115721e4e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 18:03:57 2022 +0100
+
+    fix: PC-48 fix grid layout on fewer results
+
+commit a9d3ac8ac99c2107050b345cb97a5ec7c20d1347
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 18:03:20 2022 +0100
+
+    fix: PC-48 rename string
+
+commit 72724416d16e70ae1e51c2e61bd0c6c8f2ee8824
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 17:18:08 2022 +0100
+
+    feat: PC-48 return saved downloadable assets list
+
+commit 65b05bb2d4284d98aee3c7b73ae6a98ab7f4a162
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 17:17:31 2022 +0100
+
+    feat: PC-48 only selected assets will be shown
+
+commit ca80a209bd014825f41d843be40ba1cc47b60374
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 17:16:57 2022 +0100
+
+    feat: PC-48 save downloadable list in the redux state
+
+commit 3b76b75e34158eecbee629527e1433e979b6973c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 17:16:08 2022 +0100
+
+    feat: PC-48 register meta for downloadable assets
+
+commit 34983be3d6c9c525e0abe6e55d2c3cda2527374f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 17:15:43 2022 +0100
+
+    feat: PC-48 meta for downloadable assets
+
+commit 6756a6aefc39a5080071a92fe9ebc288876207d8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 17:15:03 2022 +0100
+
+    feat: PC-48 download asset chooser
+    
+    feat: Admin can choose the assets that will be shown on the front-end
+    
+    feat: re-designed the block
+
+commit 0e9a9a88b84113690ccd8079f054666ed3cc7a62
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 11:07:39 2022 +0100
+
+    fix: format to psr2 standard
+
+commit 70707eaeee9ff4c12fc4b7b376a38a0cab3ecd59
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 10:52:56 2022 +0100
+
+    remove: depricated view
+
+commit 26b2b9117b45c874dee9abb7a89c08336c6bf1cb
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 24 10:49:26 2022 +0100
+
+    fix: re-format to psr2
+
+commit 64c2e67cf8120827c5417250fdcee132caa96f46
+Merge: b4e71aa a6e2db6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 17:31:19 2022 +0100
+
+    Merge branch 'origin/1.1-freemius' of github.com:sam0hack/Phraseanet-Wordpress-Client-Plugin into origin/1.1-freemius
+
+commit b4e71aa92143cb80797daba516faffee461722a5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 17:31:11 2022 +0100
+
+    fix: PC-48 Randomly choose the masonry size
+    
+    fix: Randomly choose wide and tall and empty class for image grid
+
+commit a6e2db6cb9e8c296615ee83c2ff24a4193339d62
+Merge: 485a975 98fd943
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jan 21 14:29:31 2022 +0100
+
+    Merge branch '1.1-freemius' into origin/1.1-freemius
+
+commit 485a9759299d3d7a2eee59115ee6a43a8afc06d1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 14:27:04 2022 +0100
+
+    fix:duplicate props
+
+commit 12d0e0d07021616e6a7a8a66f0c74ecc1f9a74a6
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jan 21 14:05:09 2022 +0100
+
+    fix: facets invalid function call (#141) (#1)
+    
+    * fix: PC-48 asset content overflow
+    
+    fix: Asset content overflows if content is very large on both overlay and sidebar view
+    
+    * refactor: PC-45 refactor the facets
+    
+    refactor: facets list to a separate child component that can be re-use
+    
+    * feat: PC-45 Bump "Facets" display - introduce "see More" button after X facets
+    
+    Bump "Facets" display - introduce "see More" button after X facets
+    
+    * improvement: remove loading bg color
+    
+    * fix: PC-48 UI fix
+    
+    fix: UI
+    fix: phraseanet embed video player instead of html player
+    fix: remove duplicate code and added a re-usable component
+    
+    * feat: add re-usable component
+    
+    fix: removed redundant code and added re-usable component
+    
+    * feat: PC-48 re-usable component
+    
+    Single component for sidebar view and overlay view
+    
+    * fix: minor UI fix
+    
+    * fix: invalid function call
+    
+    After separating components there was a function that was being called in the child component with (this) fixed by referencing that function from parent to child.
+
+commit 98fd943a35fdeb0030c4dfb011097108cb378b47
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jan 21 14:04:09 2022 +0100
+
+    fix: facets invalid function call (#141)
+    
+    * fix: PC-48 asset content overflow
+    
+    fix: Asset content overflows if content is very large on both overlay and sidebar view
+    
+    * refactor: PC-45 refactor the facets
+    
+    refactor: facets list to a separate child component that can be re-use
+    
+    * feat: PC-45 Bump "Facets" display - introduce "see More" button after X facets
+    
+    Bump "Facets" display - introduce "see More" button after X facets
+    
+    * improvement: remove loading bg color
+    
+    * fix: PC-48 UI fix
+    
+    fix: UI
+    fix: phraseanet embed video player instead of html player
+    fix: remove duplicate code and added a re-usable component
+    
+    * feat: add re-usable component
+    
+    fix: removed redundant code and added re-usable component
+    
+    * feat: PC-48 re-usable component
+    
+    Single component for sidebar view and overlay view
+    
+    * fix: minor UI fix
+    
+    * fix: invalid function call
+    
+    After separating components there was a function that was being called in the child component with (this) fixed by referencing that function from parent to child.
+
+commit d3a080b19ce416c9cbaa5d602982ea8f6c63fa2b
+Merge: 1181360 d52b1a9
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jan 21 14:03:18 2022 +0100
+
+    Merge branch '1.1-freemius' into origin/1.1-freemius
+
+commit 1181360bfb7eeca3c4c9c84f11239b4e773f3ef5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 13:58:27 2022 +0100
+
+    fix: invalid function call
+    
+    After separating components there was a function that was being called in the child component with (this) fixed by referencing that function from parent to child.
+
+commit d52b1a94bf951ad4ba752feea0ce73438cd988df
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jan 21 13:47:46 2022 +0100
+
+    fix: PC-48 Overlay layout ~ content overflow  (#140)
+    
+    * fix: PC-48 asset content overflow
+    
+    fix: Asset content overflows if content is very large on both overlay and sidebar view
+    
+    * refactor: PC-45 refactor the facets
+    
+    refactor: facets list to a separate child component that can be re-use
+    
+    * feat: PC-45 Bump "Facets" display - introduce "see More" button after X facets
+    
+    Bump "Facets" display - introduce "see More" button after X facets
+    
+    * improvement: remove loading bg color
+    
+    * fix: PC-48 UI fix
+    
+    fix: UI
+    fix: phraseanet embed video player instead of html player
+    fix: remove duplicate code and added a re-usable component
+    
+    * feat: add re-usable component
+    
+    fix: removed redundant code and added re-usable component
+    
+    * feat: PC-48 re-usable component
+    
+    Single component for sidebar view and overlay view
+    
+    * fix: minor UI fix
+
+commit 879bd17808291352f30c218b5ca921f72a13a6ad
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 13:45:00 2022 +0100
+
+    fix: minor UI fix
+
+commit c3eaa20c884eb5e1fb00bf50f930d93ac4490765
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 13:44:39 2022 +0100
+
+    feat: PC-48 re-usable component
+    
+    Single component for sidebar view and overlay view
+
+commit 08b8bc1fd0e1f501b9aa79e19e5ee6b761604ac4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 13:43:46 2022 +0100
+
+    feat: add re-usable component
+    
+    fix: removed redundant code and added re-usable component
+
+commit f2b6c97dad0213fe63577e836f0212a82bfc6dec
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 13:42:44 2022 +0100
+
+    fix: PC-48 UI fix
+    
+    fix: UI
+    fix: phraseanet embed video player instead of html player
+    fix: remove duplicate code and added a re-usable component
+
+commit 3fb722cba3f9b54f7d1dea7544c5a9bc7a65d2e8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 21 13:38:02 2022 +0100
+
+    improvement: remove loading bg color
+
+commit 02b276904eaceeb0bc6c7efd830dcd2b58d968fe
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Jan 20 18:17:58 2022 +0100
+
+    feat: PC-45 Bump "Facets" display - introduce "see More" button after X facets   (#139)
+    
+    * fix: PC-48 asset content overflow
+    
+    fix: Asset content overflows if content is very large on both overlay and sidebar view
+    
+    * refactor: PC-45 refactor the facets
+    
+    refactor: facets list to a separate child component that can be re-use
+    
+    * feat: PC-45 Bump "Facets" display - introduce "see More" button after X facets
+    
+    Bump "Facets" display - introduce "see More" button after X facets
+
+commit 525dfcfbcf2ebded794c6fc4e333943d36a5035a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 18:16:18 2022 +0100
+
+    feat: PC-45 Bump "Facets" display - introduce "see More" button after X facets
+    
+    Bump "Facets" display - introduce "see More" button after X facets
+
+commit 1247117fb923e0105d4cccdc91520fabd33a44e6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 17:42:29 2022 +0100
+
+    refactor: PC-45 refactor the facets
+    
+    refactor: facets list to a separate child component that can be re-use
+
+commit 461184c2a10dfce956b5bb84a0b6481274f2e969
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Jan 20 15:51:36 2022 +0100
+
+    fix: PC-48 asset content overflow (#138)
+    
+    fix: Asset content overflows if content is very large on both overlay and sidebar view
+    fix: Margin from top on first list of grid images.
+
+commit dc50c06b51dd63e33bee744c2ce62369ef690e05
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 15:48:56 2022 +0100
+
+    fix: PC-48 asset content overflow
+    
+    fix: Asset content overflows if content is very large on both overlay and sidebar view
+
+commit 4c78a22ee98d36dc5a520b382b6b0ffbaa64e992
+Merge: 135d03e 269771b
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Jan 20 14:00:34 2022 +0100
+
+    feat: PC-47 Classic and Masonry Layout options Merge pull request #137 from sam0hack/origin/1.1-freemius
+    
+    Merge pull request #137 from sam0hack/origin/1.1-freemius
+    
+    feat: PC-47 Classic and Masonry Layout options
+
+commit 269771bf4e2326fe3d212d8f46d28502a1e8c2b1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 13:48:25 2022 +0100
+
+    fix: PC-47 limit the results
+    
+    The default number of results are 100 results on free plugin
+
+commit aef77ebce88d68664fa6190ad4dd82b191f30ff1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 13:37:54 2022 +0100
+
+    feat: PC-47 register grid layout meta
+
+commit 19ce21a8b0e77dcb5cfd1f79310d8945bbc44cf5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 13:37:01 2022 +0100
+
+    fix: label css
+
+commit 0581f6e2e1457577cae990c3b41c98460f605404
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 13:36:44 2022 +0100
+
+    feat: PC-47 new option to choose the grid layout
+    
+    feat: PC-47 new option to choose the grid layout
+
+commit 3ed0ea7f572dd63f477c45be1e7c51312a644f1d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 13:36:03 2022 +0100
+
+    feat: PC-47 add option to choose layout type
+    
+    Add: new option in the block settings to choose the layout type that will be shown on that frontend block
+
+commit fec538cd865ce2945c4587fc40cedd8dba0ba96e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 13:34:27 2022 +0100
+
+    fix: PC-47  Limit the results from api
+
+commit dcdf748dd5f66927b10b26538091df082f3b0860
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 20 13:32:41 2022 +0100
+
+    feat: PC-47  add layout based on admin choice
+    
+    Admin can select the grid layout type between Classic and Masonry and that layout will be shown on the frontend
+    
+    The default layout is Masonry
+    
+    Fix: Masonry layout on fewer results
+
+commit 5c7890a917dde7e5d7b7bd97cba4b5a199b9e32c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 19 17:34:43 2022 +0100
+
+    PC-47 fix react error href link error
+
+commit 944c789e7de725242cc82642422a9f4bbb17b048
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 19 17:34:16 2022 +0100
+
+    PC-47 feat Classic layout
+    
+    separate layout for Classic aka (square layout) as child component for ImageBlock
+
+commit db01b20ca0397502a7b98e64567be2510bd43545
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 19 17:32:57 2022 +0100
+
+    PC-47 feat Masonry layout
+    
+    separate layout for masonry as child component for ImageBlock
+
+commit 135d03efe8ab090770f4daa66ecfaf0b7200e685
+Merge: ef30988 227fd09
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Jan 19 11:57:12 2022 +0100
+
+    Merge pull request #136 from sam0hack/origin/1.1-freemius
+    
+    
+    fix: remove __experimental Wp component
+    
+    added: divider component
+    
+    added: hr styles
+
+commit 227fd09c643f45ef1df74ceb840f6fd068efab2e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 19 11:55:41 2022 +0100
+
+    added: hr styles
+
+commit bacbf5ad1c446e6a921b137cde11f111c470fb4b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 19 11:55:24 2022 +0100
+
+    added: divider component
+
+commit 80ae7bcb25564284d1fdf041e3e05250a15b27ae
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 19 11:55:06 2022 +0100
+
+    fix: remove __experimental Wp component
+
+commit ef309884312026af3ac2d952074002fa454dafaf
+Merge: a9f5eb4 e7c5acb
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Jan 18 17:30:00 2022 +0100
+
+    Merge pull request #135 from sam0hack/origin/1.1-freemius
+    
+    a fix for resolve conflict bw lodash and wp media
+
+commit e7c5acbd12b7e5509abe42654b2fc6ca0788dc7c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 18 17:28:49 2022 +0100
+
+    a fix for resolve conflict bw lodash and wp media
+
+commit a9f5eb43ee0fb55ada85ab9c997cfb90f7ca4067
+Merge: 9fe2a57 56d3dc3
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Jan 18 13:34:11 2022 +0100
+
+    Merge pull request #134 from sam0hack/origin/1.1-freemius
+    
+    added: float animation on hover
+
+commit 56d3dc3a231cb9ffbe5c91d3f5e984dbbe0a26d2
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 18 13:23:26 2022 +0100
+
+    added: float animation on hover
+
+commit 9fe2a57d72e049cf688a974f672cce98836f34b1
+Merge: e1628e1 f3931ef
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jan 17 17:31:53 2022 +0100
+
+    new grid view Merge pull request #133 from sam0hack/origin/1.1-freemius
+    
+    
+    added: new css for new grid view
+    
+    fix: scrooling when click on download btn
+    
+    added: instagram like grid view
+
+commit f3931efff0fbce2f9de1396adaddab00deaff43f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 17:28:05 2022 +0100
+
+    added: instagram like grid view
+
+commit 040bfec14bf99b84727dd38c441f10fbb29db321
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 17:27:36 2022 +0100
+
+    fix: scrooling when click on download btn
+
+commit 39fe507426255b6b02d02fca765961e479ff196c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 17:26:28 2022 +0100
+
+    added: new css for new grid view
+
+commit e1628e1414ac27ce658628df863d4302406637e8
+Merge: f1c0ea2 27ca99a
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jan 17 13:28:02 2022 +0100
+
+    Merge pull request #132 from sam0hack/origin/1.1-freemius
+    
+    fix: content overflow
+    
+    fix: margin
+    
+    remove old bootstrp
+    
+    added: bootstrap bundle
+    
+    update: bootstrap min to bootstrap bundle
+    
+    added: ability to choose the asset to download and permalink
+
+commit 27ca99adc52fb1fad2e883abd37ea858c591357f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 13:26:14 2022 +0100
+
+    added: ability to choose the asset to download and permalink
+
+commit fab8d4aa08b528973cb3a0e49fc8c69031fcb344
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 13:25:34 2022 +0100
+
+    update: bootstrap min to bootstrap bundle
+
+commit 865a40f5d1f2f736142cd33ed4e64857a9ad179c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 13:25:10 2022 +0100
+
+    added: bootstrap bundle
+
+commit 290d8012be5a293d743ba607a1a0ff216e6cbb91
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 13:24:52 2022 +0100
+
+    remove old bootstrp
+
+commit 9015f0310b37ef7d543e918d67a6af84347d425e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 12:33:18 2022 +0100
+
+    fix: margin
+
+commit 66f53ea7fec7acea0f1c67eb248abfd6b578980b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 17 12:32:52 2022 +0100
+
+    fix: content overflow
+
+commit f1c0ea2d1afefbb37db9bd616d8ea23e5f4a9286
+Merge: cc97d10 dc9dc56
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jan 14 17:12:42 2022 +0100
+
+    fix: UI re-arrenged the order of the options with ui improvements  commented the unused import  fix: UI ~ increased the size of the sidebar block and fix the ui when…  …  fix: facets indents Merge pull request #131 from sam0hack/origin/1.1-freemius
+    
+    fix: UI re-arrenged the order of the options with ui improvements
+    
+    commented the unused import
+    
+    fix: UI ~ increased the size of the sidebar block and fix the ui when…  …
+    
+    fix: facets indents
+
+commit dc9dc56d15d303f8e47df5e67b87ec55ed78a8ef
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 14 17:05:55 2022 +0100
+
+    fix: facets indents
+
+commit 7b89edab0aabc61bd46d130ec492289cefb2f120
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 14 16:57:01 2022 +0100
+
+    fix: UI ~ increased the size of the sidebar block and fix the ui when exit the video from fullscreen
+
+commit c7c88871e4b868ce3b76965df5ddd4277bf3731f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 14 16:23:45 2022 +0100
+
+    commented the unused import
+
+commit b7ad2a4caf44c5c4808845d913f637d9b3c6314a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jan 14 16:22:46 2022 +0100
+
+    fix: UI re-arrenged the order of the options with ui improvements
+
+commit cc97d10cc96cbbc69e9032e44dae13965bcebf6e
+Merge: d8df522 94978c6
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Jan 13 14:38:30 2022 +0100
+
+    freemius compatible  Merge pull request #130 from sam0hack/origin/1.1-freemius
+    
+    logos
+    depricated
+    
+    freemuis deployment required readme.txt
+    
+    added: deactivation
+    
+    freemius does not support uninstall methods.
+    
+    fix: deactive feature is license deactivates or expired
+    
+    fix: hide the prev selected options if license not active
+    
+    
+    update the version of plugin
+    
+    fix: disable defined facets if license not activated
+
+commit 94978c65286856bbad930823284178643bd1eb9e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 14:35:45 2022 +0100
+
+    logos
+
+commit e0c3dce60d2608deeebfe57330c2d2cea429cd42
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 14:31:24 2022 +0100
+
+    depricated
+
+commit eeeb40af3ab54196425f2364222f84634c49e3a3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 14:31:14 2022 +0100
+
+    freemuis deployment required readme.txt
+
+commit 465f1d74c75c04e1b514ac740c95991ca347296a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 14:30:52 2022 +0100
+
+    added: deactivation
+
+commit d1b22d04fb2713f57007aae6af4ddfd2c657a0a6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 14:30:34 2022 +0100
+
+    freemius does not support uninstall methods.
+
+commit d8df52263e6733df32ca91717197e93ef539cc76
+Merge: e743388 7b45472
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Jan 13 13:46:44 2022 +0100
+
+    fix: deactivate feature is license deactivates or expired  fix: hide the prev selected options if license not active  update the version of plugin  fix: disable defined facets if license not activated Merge pull request #129 from sam0hack/origin/1.1-freemius
+    
+    fix: deactivate feature is license deactivates or expired
+    
+    fix: hide the prev selected options if license not active
+    
+    update the version of plugin
+    
+    fix: disable defined facets if license not activated
+
+commit 7b45472e602c09e50c5e0d096f67d9b2dcdd04e5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 13:43:01 2022 +0100
+
+    fix: deactive feature is license deactivates or expired
+
+commit 043aadc6dc4d02347e211d8da288b55395f0635d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 13:37:34 2022 +0100
+
+    fix: hide the prev selected options if license not active
+
+commit 634a726c95d2a892ae39f17fd2c88d202f8a1054
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 13:32:12 2022 +0100
+
+    update the version of plugin
+
+commit a3af13706e4975631ce583bce44083f4c9ac0602
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jan 13 13:31:52 2022 +0100
+
+    fix: disable defined facets if license not activated
+
+commit e74338848d6347aac88c737668266d0cf0719371
+Merge: a557e2a 2d1386c
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Jan 12 17:16:57 2022 +0100
+
+    limit results  added: wp_localize_script into frontend to access the string  limit validation Merge pull request #128 from sam0hack/origin/1.1-freemius
+    
+    limit results
+    
+    added: wp_localize_script into frontend to access the string
+    
+    limit validation
+
+commit 2d1386c32c12e8f906c53e17293e5b6220515e76
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 12 17:06:02 2022 +0100
+
+    limit validation
+
+commit edceac8c177f60e1de0a054c1f8be3c596cf554a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 12 16:49:30 2022 +0100
+
+    added: wp_localize_script into frontend to access the string
+
+commit 2752d8bb341a6f81fc223fca9226ef84eb6c6393
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jan 12 16:48:40 2022 +0100
+
+    limit results
+
+commit a557e2a6b125b7535136e8fd930f34f6f8d4e1f1
+Merge: 41a5c37 d8583e4
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Jan 11 17:58:12 2022 +0100
+
+    added: restriction premium functionlities  fix: spacing  wp_localize_script share license activation status
+    
+    Origin/1.1 freemius
+    
+    Merge pull request #127 from sam0hack/origin/1.1-freemius
+    
+    added: restriction premium functionlities
+    
+    fix: spacing
+    
+    wp_localize_script share license activation status
+
+commit d8583e4fa0e91b5d2a62bfcee762cc6eb388ff6f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 11 17:55:08 2022 +0100
+
+    wp_localize_script share license activation status
+
+commit 0aacafefc5df714d31c27f72dd7a7995bb2a2fdc
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 11 17:53:38 2022 +0100
+
+    fix: spacing
+
+commit f42c9f95913db9c5ed50797a7bc17d7c8f170f04
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 11 17:53:14 2022 +0100
+
+    added: restriction premium functionlities
+
+commit 41a5c37f42326ac21d317c63a08d26e4a1a37e3c
+Merge: cae5de2 98ebe51
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Jan 11 13:55:09 2022 +0100
+
+    fix: make it premium and changes the slug  changed: branch 1.1-freemius. Merge pull request #126 from sam0hack/origin/1.1-freemius
+    
+    Origin/1.1 freemius
+
+commit 98ebe510168a06c31721098f0218c35550fc9467
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 11 13:51:41 2022 +0100
+
+    changed: branch 1.1-freemius
+
+commit 8048ed484c9aaa8c54352f319a52a7911f9b67e4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jan 11 13:31:25 2022 +0100
+
+    fix: make it premium and changes the slug
+
+commit cae5de2ed7263ac4ddb2b1ce4da749d07f043350
+Merge: c99aaf2 eeca1f2
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jan 10 19:36:16 2022 +0100
+
+    integrating freemius SDK
+    
+    Merge pull request #125 from sam0hack/origin/1.1-freemius
+
+commit eeca1f26db205ff6325336be30a588d1725eeebf
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 10 19:07:06 2022 +0100
+
+    freemius config
+
+commit 9c4df36c09658d6c761115e20d5f83c30850f667
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 10 14:22:33 2022 +0100
+
+    Added freemius sdk
+
+commit c99aaf267300c42ea760e8e83d9b5cce6c1d8176
+Merge: 1a31873 48eb4bb
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jan 10 14:04:37 2022 +0100
+
+    Remove appsero from 1.1 as appsero has 1.1-ppsero branch
+    
+    Merge pull request #124 from sam0hack/1.1
+
+commit 48eb4bb3d295e9dea02bdcc644bc4fe5008d44d5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 10 14:01:44 2022 +0100
+
+    Remove appsero from 1.1 as appsero has 1.1-ppsero branch
+
+commit 1a3187390ae14dfe0c9da479e9b4b5aa141ea45f
+Merge: 3b43af9 368cb58
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jan 3 14:59:00 2022 +0100
+
+    PC-42 added apsero sdk and license  menu
+    
+    PC-42 added apsero sdk and license  menu
+
+commit 368cb581d1660322d9c954360c1303dda577f921
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jan 3 14:57:09 2022 +0100
+
+    added apsero sdk and menu
+
+commit 3b43af9953c8c5d86a6628220065b967ca0c5bd4
+Merge: 707dcec 0ec6bce
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Dec 31 16:46:12 2021 +0100
+
+    PC-42 added: facets title And fix: UI image blocks style and reduce the fontSize
+    
+    PC-42 1.1
+    added: facets title
+    fix: UI image blocks style and reduce the fontSize
+
+commit 0ec6bce796a7680abb3095757ba86c3dd92d59d1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Dec 31 16:42:31 2021 +0100
+
+    fix: UI image blocks style and reduce the fontSize
+
+commit e9cf8ddbefe42d128f061d5cd679a30838bff566
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Dec 31 16:41:41 2021 +0100
+
+    added: facets title
+
+commit 707dcec4c15962ad72469d4a0202253dd1f32c68
+Merge: 0c0af26 7942862
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Dec 31 14:56:03 2021 +0100
+
+    Merge pull request #117 from alchemy-fr/1.1_deployment_fix
+    
+    PC-42 1.1 deployment and packager fix
+
+commit 7942862b033c665af4c57595472449cd319e3e62
+Author: nmaillat <maillat@alchemy.fr>
+Date:   Fri Dec 31 14:23:16 2021 +0100
+
+    PC-42 fix packager git checkout
+
+commit 4277ca77648e8204b23ba77ab6c8d00898b35956
+Author: nmaillat <maillat@alchemy.fr>
+Date:   Fri Dec 31 14:19:30 2021 +0100
+
+    PC-42 fix entrypoint git checkout
+
+commit 0c0af26c3d8b933ab43e57c68a6fedb88e3b0c78
+Merge: bb74697 f9b4825
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Dec 31 13:34:35 2021 +0100
+
+    Merge pull request #115 from sam0hack/1.1
+    
+    Pc-42
+    
+    Remove branch and commit from var
+    added echo at end of docker-enrtypoint to inform the user...
+    Added git logs in the admin settings page
+    added command to create git log
+
+commit f9b4825b6255166cc212fde9b9a8eb6f0e71a88a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Dec 31 13:25:51 2021 +0100
+
+    added command to create git log
+
+commit f8bd13fbf0be8d7237168ec3812c3b48e65f459e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Dec 31 13:25:11 2021 +0100
+
+    Added git logs in the admin settings page
+
+commit 8f5f5e0b02148c0f1d102bd864f58db066d07bcc
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Dec 31 13:04:10 2021 +0100
+
+    added echo at end of docker-enrtypoint to inform the user...
+
+commit 732934e5354ef138b85b3577e00b41f141cc8330
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Dec 31 13:02:42 2021 +0100
+
+    Remove branch and commit from var
+
+commit bb74697772e5e87f832cd7eae589144001504563
+Merge: 8a64e94 091cf55
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Dec 30 17:47:50 2021 +0100
+
+    PC-42 Merge pull request #114 from sam0hack/1.1
+    
+    PC-42
+    added validation if Strings are empty
+    ability to choose Git branch and commit
+
+commit 091cf55cb30463c3242b7fd70ed9b22b53a12e45
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 17:45:16 2021 +0100
+
+    ability to choose Git branch and commit
+
+commit 861730c1b0279293814d26e1baef7c2fa592831f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 16:54:36 2021 +0100
+
+    Added validation if Strings are empty
+
+commit 8a64e94b51dee6b2279411101da5c06cae109a70
+Merge: afb1e03 42c144f
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Dec 30 15:47:29 2021 +0100
+
+    PC-42 Merge pull request #113 from sam0hack/1.1
+    
+    - Block setting - preview detail - define field is not taken in account - all fields are displayed
+    - hide login password auth option in admin >plugin >auth setting.
+    - Phraseanet url slash issue
+
+commit 42c144f6fa8332ae8d532791ec5a471f561c0917
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 15:40:14 2021 +0100
+
+    hide login password auth option
+
+commit d28784f74422f92d99d45d1b0f9fc6a441c5531f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 15:36:08 2021 +0100
+
+    fix: preview details
+
+commit cb1018200e2112371f1db561c7db471983588266
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 15:20:13 2021 +0100
+
+    Added slash at the end of url if not there
+
+commit afb1e039999c2289cd1b3ea51dfbdaecafecb0a3
+Merge: 8ce86da 5dea172
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Dec 30 13:23:09 2021 +0100
+
+    PC-42 video player and preview fixes
+    
+    fixed thumb if no preview and title length.  fix video phraseanet embed player  fix: preview details added GitHub action workflow   Merge pull request #112 from sam0hack/1.1
+
+commit 5dea172398e3abbc96dae5f02e50ea0ee66c5635
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 13:17:58 2021 +0100
+
+    github workflow
+
+commit b864b8f0ad47054edcde13f1f84cf9c55b16a389
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 13:15:00 2021 +0100
+
+    fix: preview details on overlay layout
+
+commit 3a753520871d913e85271424643f17b520c18675
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 13:14:41 2021 +0100
+
+    fix: preview details
+
+commit 747ecece5fbe31b59305f8f6743a277862838b0d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 12:38:55 2021 +0100
+
+    fix video phraseanet embed player
+
+commit 4e66644118f0f3f4ab9cd8a0026103b104de90e7
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Dec 30 12:38:25 2021 +0100
+
+    fixed thumb if no preview and title length
+
+commit 8ce86dabe968a81dafeb48d34b7205e4e4d07d1e
+Merge: 6628bb1 938a03e
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Dec 29 17:03:32 2021 +0100
+
+    Merge pull request #111 from sam0hack/1.1
+    
+    PC-42 issues list 1
+
+commit 938a03e81698b6256e09ccac3e535f18b4dc4e09
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 16:58:38 2021 +0100
+
+    github build test workflow
+
+commit af3399712e6fbf7c65f399fd8f836f136b123835
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 16:56:12 2021 +0100
+
+    Hide Auth settings from admin Block
+
+commit 55bba867be57d3a4495703fc4609eeb1685d43bd
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 16:52:59 2021 +0100
+
+    Caps first char
+
+commit a3af48696b52a128a14d8fb45f4758fbd55d1b95
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 16:48:34 2021 +0100
+
+    fix preview details
+
+commit bfee503c19860104bf131f2f70681297feabde12
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 16:41:17 2021 +0100
+
+    Added string to tell this is an experimental feature.
+
+commit fb86e3ed4b22492373bc74100b20115598374d60
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 14:39:30 2021 +0100
+
+    fix define displayed facets
+
+commit 29d8e3560abf4a7c91162e500d668328aa589de3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 14:39:01 2021 +0100
+
+    fix: scrollbar color
+
+commit 0d82770f03f34d5288df0b1c51b1a17797623220
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 14:13:10 2021 +0100
+
+    fix: preview details
+
+commit 12207f209c81ca51afac1733f585fef932beb531
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 14:12:57 2021 +0100
+
+    fix: error when subdef thumb not set from admin
+
+commit c55d6014eb0948c5a436f14064d0ff610aa9887c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 13:31:18 2021 +0100
+
+    limit the length of title on the side view
+
+commit 94e45b07ed86db00e2e3914b52315e5098cb8fd9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 13:24:56 2021 +0100
+
+    fix: duplicate side bar view block at the end of the page
+
+commit 236682b22ea57f89d91382f70dcc49412b074661
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 13:24:25 2021 +0100
+
+    fixed bug in download. bug -> auto download when re open sidebar
+
+commit e81cc74009b80ae32260b066d588caeef7f68b3b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 13:10:13 2021 +0100
+
+    default layout is set to side block view
+
+commit b10544eeaecde78a1b18d61681a180a48ce809c3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 13:08:18 2021 +0100
+
+    fix padding
+
+commit 0eec9f62b2fd2ffd70d6a7bc4ba8a229a450256f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 12:39:20 2021 +0100
+
+    Added new phraseanet plugin dev vars
+
+commit b7c1b42a7943e358c392e29fee0036b078f8645f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Dec 29 12:35:30 2021 +0100
+
+    Removed the underscore from facet names.
+
+commit 6628bb1b5368e4e107363e703be7515cb0ac244f
+Author: nmaillat <maillat@alchemy.fr>
+Date:   Tue Dec 28 17:16:00 2021 +0100
+
+    PC-42 a new start for release version 1 original hash 7e9ce6fa0e43f98e402c4cb357d530ce3d7fedf9
+
+commit 7e9ce6fa0e43f98e402c4cb357d530ce3d7fedf9
+Merge: 8f59685 8d76ca8
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Nov 5 11:44:56 2021 +0530
+
+    Merge pull request #103 from sam0hack/main
+    
+    PC-40
+
+commit 8d76ca808ffa157d9a00dca2ced6d221c8e6a40b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:44:00 2021 +0530
+
+    remove console.log
+
+commit ff88d878da24a6636b37ccbbfb41c91145eec3e5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:43:44 2021 +0530
+
+    new action
+
+commit ca8c3819c4e75e1a65deebe7c749c4e7ad1daa8c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:43:24 2021 +0530
+
+    added new action
+
+commit 9be7b74afd7341db157ea340e0b301885d8431e7
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:43:05 2021 +0530
+
+    Fixed search issues
+
+commit 899100449be634d7292b6483f6bd65c21aef7ef7
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:42:26 2021 +0530
+
+    removed logs and added object hash
+
+commit 00ce3e625e3c98a238f13773d8fdf7126b741a8a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:41:52 2021 +0530
+
+    Added time string in debug mode
+
+commit 1f936fb03c17937a02690a5da2ee4d8d670494c9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:41:37 2021 +0530
+
+    Remove time string
+
+commit 1905b919058399d31b5f9228c0d0277ba963de1c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:41:14 2021 +0530
+
+    increased default number of results
+
+commit 508f0b8e48bbaf68b79020f4868575ca8d85015d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:40:37 2021 +0530
+
+    object hash
+
+commit 4268ec2be8e99326b663bb131930a5c07cd6fe09
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:40:18 2021 +0530
+
+    Added composer 2
+
+commit aa099b56088b139a36fee72deb64b1a1db569b60
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Nov 5 11:40:01 2021 +0530
+
+    Fix typos
+
+commit 8f5968518b737275956692f18abe02f2686bd1b7
+Merge: 45c329b b4586fb
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Oct 21 17:47:27 2021 +0530
+
+    PC-39 po2json
+    
+    po2json
+
+commit b4586fbff3d5cd843dbcaedadaf2299c5c4df06d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Oct 21 17:46:36 2021 +0530
+
+    added po2json
+
+commit 31ca889cddfd4e9050bffc008b3d6366ad597540
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Oct 21 17:45:21 2021 +0530
+
+    demo file
+
+commit 45c329bc839e221ea105ad132cce58427fd3fa82
+Merge: a11ad92 d509e6a
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Oct 21 17:43:19 2021 +0530
+
+    PC-39 Strings for Translation
+    
+    PC-39 Strings for Translation
+
+commit d509e6a6cc694001e8cb50c6ca2c4c47d62dda0f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Oct 21 17:41:23 2021 +0530
+
+    lang
+
+commit bbfa951278d3c7b20208b16b95bee9a23e4477c0
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Oct 21 16:52:38 2021 +0530
+
+    PC-39 translations strings
+
+commit a11ad92e7e606ceae74e4fbd271663b258a58e12
+Merge: 8a0c0d8 70a9303
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Oct 20 20:16:08 2021 +0530
+
+    PC-39
+
+commit 70a9303f63e444a9ef0606f4ad746e498ac90d09
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Oct 20 20:14:50 2021 +0530
+
+    PC-39
+
+commit 8a0c0d8986de76bebf6dccc43c8fb66838927e43
+Merge: 92e5fda 59fd859
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Oct 19 22:37:47 2021 +0530
+
+    PC-39
+
+commit 59fd859606b06c83085f46702a5726e82c7ec9de
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 22:36:08 2021 +0530
+
+    bug fix auto download asset
+
+commit 5ab10ae52af9c05ad8f7c9a6332a660b96424212
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 22:33:26 2021 +0530
+
+    Fix: preview in overlay
+
+commit 92e5fdaad08a03bb7bb97097f60a30176b191820
+Merge: c1f32b3 cc110f6
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Oct 19 22:31:03 2021 +0530
+
+    PC-39 fixes
+
+commit cc110f686150f6d90476f2a464fa95a58f77b045
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 19:22:33 2021 +0530
+
+    default asset UI
+
+commit 49c3d4fee205697f6809f824fb18285685964cf4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 19:13:29 2021 +0530
+
+    Fix: UI
+
+commit 2122d0b50a262bdf20e1c38fcfa643f6ac783110
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 19:13:17 2021 +0530
+
+    fix: preview
+
+commit 4a0f510e77dcb3d8e57ac149fd87cf4c60e8d337
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 18:59:41 2021 +0530
+
+    asset title
+
+commit 406f3bcbbda7a85d8e8e728cc66e771f45049046
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 16:39:36 2021 +0530
+
+    fix errors
+
+commit ae8b06363bb3dca9ac3b951b8e1e465646f80785
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 16:34:46 2021 +0530
+
+    Fix: requester with search param
+
+commit d761bb898ba8b646a4860db8464149dd3a2545ca
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 19 15:23:00 2021 +0530
+
+    Edge cases for videos and document assets
+
+commit c1f32b32ed1863b54f8004e8cda3f945908f4594
+Merge: c13ccf6 837c5a0
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Oct 18 12:48:59 2021 +0530
+
+    Merge pull request #96 from sam0hack/main
+
+commit 837c5a030d899c89daf04ccee87112e895de0e01
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 18 12:48:01 2021 +0530
+
+    commented out
+
+commit c13ccf6ea57d4942b698c3570eb6f30cab6bb37d
+Merge: 995169b 990c9fa
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Oct 18 12:36:09 2021 +0530
+
+    PC-39 added default subdef to thumbnail
+
+commit 990c9fa8fc9c4487e7e6f31760dcff25a61ea75f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 18 12:34:37 2021 +0530
+
+    Added default image subdef to thumbnail
+
+commit 06161d29f2990458db6f7b06c348b824002651ee
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 15 23:18:47 2021 +0530
+
+    Fix
+
+commit 586704711415f93f05844055887d1e2f6797acec
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 15 23:15:50 2021 +0530
+
+    Refactor code
+
+commit 43019d298651f86fec06817096a9352db0eb4290
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 15 23:15:02 2021 +0530
+
+    autorun query
+
+commit f9328abfbc5b61ec0d7897a3a7616c8a4bd36e37
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 15 23:14:10 2021 +0530
+
+    hover highlight
+
+commit 995169b104a577a7dd68c4f426fa992f74876199
+Merge: 7e1b759 5843741
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Oct 15 00:43:07 2021 +0530
+
+    PC-39 Added: scrollbar to image content
+
+commit 5843741f4866e58489e640336141a2ce3fa68e7b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 15 00:42:09 2021 +0530
+
+    Added: scrollbar to image content
+
+commit 7e1b759fc9f69da51def80f47daf2b04841c3eac
+Merge: a964a08 83e19c5
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Oct 13 20:39:13 2021 +0530
+
+    PC-39 Added import and export functionality for Requester
+    
+    PC-39 Added import and export functionality for Requester
+
+commit 83e19c5db1033dc76f4fcff6c3bb285eeba3e9cd
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Oct 13 20:38:18 2021 +0530
+
+    Added import and export functionality for Requester
+
+commit a964a0891dd167109001091a5375f9b5db2ecbf3
+Merge: fe7342f f69eac4
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Oct 12 22:34:31 2021 +0530
+
+    PC-39 Edit Requester Title
+    
+    Added a functionality to edit Requester Title
+
+commit f69eac4b92d56353e9616a626cd72d0a15f824b0
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 12 22:33:18 2021 +0530
+
+    Edit Requester Title
+
+commit fe7342f5199d7b38ab24ee637605edf35091e95b
+Merge: b60a3a1 d672d8e
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Oct 12 20:36:14 2021 +0530
+
+    Merge pull request #90 from alchemy-fr/PC-39_nm_wording_change
+    
+    PC-39 Wording change in widget template properties
+
+commit b60a3a1b9e62f91efdd5229ba9293e6b27c81066
+Merge: eeeae36 3c0f521
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Oct 12 19:55:05 2021 +0530
+
+    PC-39 json box not updating on move blocks
+    
+    PC-39 json box not updating on move blocks
+
+commit 3c0f521959e86b8fb38776946f0dea9eb37ad3da
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 12 19:54:00 2021 +0530
+
+    json box not updating on move blocks
+
+commit d672d8e0962142371eed533e4bc8f22e4accd505
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Tue Oct 12 09:40:10 2021 +0200
+
+    Update stringDropdown.json
+
+commit a45d72f38b376d85ec3886093acf755602339665
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Tue Oct 12 09:30:37 2021 +0200
+
+    Update date.json
+
+commit a37882d74334396ed31c03b6fabc7fed1696f6bd
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Tue Oct 12 09:29:39 2021 +0200
+
+    Update multitext.json
+
+commit 3bea020cf359fc2da345203b24905ba99a9d513d
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Tue Oct 12 09:28:58 2021 +0200
+
+    Update text.json
+
+commit 261390918dbf2647e212109e5c90cb6737c6a969
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Tue Oct 12 09:26:48 2021 +0200
+
+    PC-39 checkbox wording
+
+commit ee060e5434878030e4e0990144a98470ffad0928
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Tue Oct 12 09:18:29 2021 +0200
+
+    PC-39 Wording change in widget template properties
+
+commit eeeae365eeaf8b037be2e67b042de05ffa9f66fe
+Merge: 21606ee 58a157f
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Oct 11 21:44:36 2021 +0530
+
+    PC-39 debug-bar and fix errors
+    
+    PC-39 debug-bar and fix errors
+
+commit 58a157f994a9fb258b2dac339e3afd438b95803c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 21:43:13 2021 +0530
+
+    fix indent
+
+commit b8866a141928ff0cc8d8b24e4facdc070a04774b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 21:40:18 2021 +0530
+
+    debug bar
+
+commit 72b3de10e6c0d1d34f7a0ce7ea7c8d23906d1aca
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 21:40:02 2021 +0530
+
+    Fix: errors if data not init
+
+commit 3863add118e3dcbc2952c4cbbe22762477b553d6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 21:39:13 2021 +0530
+
+    Debug bar
+
+commit 21606ee79b7744a829962f657e63012cdf7e6fe0
+Merge: 7562286 e1d8c42
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Oct 11 19:12:05 2021 +0530
+
+    PC-39
+
+commit e1d8c4234770df94950e0f00deaf0bbd17b0dda1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 19:09:51 2021 +0530
+
+    Toast Message on event
+
+commit 94ae4d61d7304f1c5e0e23fa8b402deea9a9b59d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 19:09:32 2021 +0530
+
+    Arrow to move up and down elements
+
+commit 71e2aa94d4c4293ec5536ea13f3747a4e867ebbb
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 19:08:59 2021 +0530
+
+    Typo fix in token separator
+
+commit 7c10454db8b58b8854664382ea3dc9ee013e396e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 18:09:00 2021 +0530
+
+    fixes
+
+commit 3033f27fb7842a45aafb2d7ae6ae958c395a3065
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 18:01:58 2021 +0530
+
+    validate args
+
+commit ebb9082360ec6e126ba124074cee0e7904700adc
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 18:01:30 2021 +0530
+
+    fix typo
+
+commit 75622860b9df298c7437e0ce01b96120841064ee
+Merge: bad7703 ed13113
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Oct 11 17:27:22 2021 +0530
+
+    PC-39 Rename strings and fix missing loading spinner in the facets
+    
+    PC-39 Rename strings and fix missing loading spinner in the facets
+
+commit ed13113311550d48d5546cfca43033d654566904
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 17:26:11 2021 +0530
+
+    Rename strings and fix missing loading spinner in the facets
+
+commit bad770300b5efff6a6e3213e223d962ffd82e345
+Merge: f15e89b 2cf4e64
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Oct 11 17:11:45 2021 +0530
+
+    PC-39 Added: Separator element
+    
+    PC-39 Added: Separator element
+
+commit 2cf4e640e28710c26ea87419c87717573c6e04cc
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Oct 11 17:10:03 2021 +0530
+
+    Added: Separator element
+
+commit f15e89bdf0457e9e3d48bdf6fe94e12ecddea231
+Merge: 0f882e6 d9f54e7
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Oct 8 22:13:59 2021 +0530
+
+    PC-39
+
+commit d9f54e70edc63d4c90795589bad2cb0240e26bc8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 22:13:06 2021 +0530
+
+    hide scrollbar
+
+commit c4427910e25c033147d10983487625d2acdcc536
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 22:12:53 2021 +0530
+
+    fix search query and iframe
+
+commit 0f882e65622a6ac986f66b258cc991d202a1b0e7
+Merge: e5c96fb 8d12b4d
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Oct 8 22:02:43 2021 +0530
+
+    PC-39
+    
+    PC-39
+
+commit 8d12b4ddb6bb0a780e128caab148d3457c8b8fcd
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 22:01:27 2021 +0530
+
+    EAN changed to recordid
+
+commit dbbaf6e0d4a1ef5d8b227b4ec0992d916a83e289
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 22:00:17 2021 +0530
+
+    multi-text OR query fix
+
+commit e5c96fb88846539d59e7af284c3f1158b1af1257
+Merge: 0fe7f08 a62fa89
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Oct 8 19:59:30 2021 +0530
+
+    fix: status bit operator and delete query from the cache
+    
+    fix: status bit operator and delete query from the cache
+
+commit a62fa897986cfaef0d2860624c38b7729310333e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 19:56:26 2021 +0530
+
+    delete empty query from query string
+
+commit 592d731f9b0ff267767604676e95d55400ce91c3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 19:54:05 2021 +0530
+
+    fixed: statusbit and remove query from cache
+
+commit 526d8f3dd827206910db144ad20a6cf5304b3dd6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 19:45:39 2021 +0530
+
+    statusbit correct operator
+
+commit 0fe7f08e514312a39ab23bbe82c66a8232f8d48c
+Merge: 2297f37 bf764fd
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Oct 8 16:07:45 2021 +0530
+
+    Merge pull request #82 from sam0hack/main
+    
+    Minor fixes
+
+commit bf764fd822e050dcace4922e1c79dba327b9089b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 16:04:08 2021 +0530
+
+    Change order
+
+commit a330f8150981f8c7f735c4dbf689843cd792cc4f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 8 16:03:51 2021 +0530
+
+    Remove spaces  function do not support “space” in var
+
+commit 2297f37f31135a7e59a530abb284530c3d69fa5f
+Merge: 75d0a08 6ce56df
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Oct 5 15:56:42 2021 +0530
+
+    PC-38 Fixed: reset btn
+    
+    PC-38 Fixed: reset btn
+
+commit 6ce56df8d5cf9d8b2f85698646756f200ba5ff44
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 5 15:55:41 2021 +0530
+
+    Fixed: reset btn
+
+commit 5ce9375d0d4098a5269e30c3748fd2917353f329
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 5 15:24:01 2021 +0530
+
+    clean
+
+commit 75d0a0879b880b5b3e054c8d84b5ab75d8fa1f66
+Merge: 4a8f2fe 36464a3
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Oct 5 15:19:01 2021 +0530
+
+    PC-38 Fixed Query issues
+
+commit 36464a3c13f8bfd64c136ca818fcd371a4fd8e70
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Oct 5 15:17:39 2021 +0530
+
+    Fixed Qury issues
+
+commit 4a8f2fe4937b9e188859cd3586b8ba35ac995912
+Merge: d7ccc6c 4110fee
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Oct 1 19:13:02 2021 +0530
+
+    Merge pull request #79 from sam0hack/main
+    
+    fix priv api
+
+commit 4110fee36e427e1cedd4eba92bc35d2ad5bd4705
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 1 19:11:46 2021 +0530
+
+    fix priv api
+
+commit d7ccc6c15bab91a7983405b4bd6c7ba31d1104aa
+Merge: 0212813 4deeb41
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Oct 1 16:55:49 2021 +0530
+
+    PC-38
+    
+    PC-38
+
+commit 4deeb4179869834a2101e01e5329ebabc573f02c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 1 16:53:59 2021 +0530
+
+    fix nopriv api
+
+commit 7e78e46fe3253311c9153822092a1896c030cd89
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Oct 1 16:49:05 2021 +0530
+
+    Added Requester
+
+commit 02128130936a05d8055a37fd3760751b214f60c7
+Merge: b493511 59e677d
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Sep 29 20:26:25 2021 +0530
+
+    Merge pull request #77 from sam0hack/main
+    
+    fix typo PC-38
+
+commit 59e677d73a05bee18ef4d4ef5ff11f82987681c0
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 29 20:25:39 2021 +0530
+
+    fix typo
+
+commit b49351115a407b7c04d25b04448ce32d14663e3b
+Merge: eb64c3d da56e5b
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Sep 29 20:21:56 2021 +0530
+
+    Merge pull request #76 from sam0hack/main
+    
+    PC-38
+
+commit da56e5bc65fc11546370d19fbb1a6cc4d180acfb
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 29 20:14:28 2021 +0530
+
+    fix images preview
+
+commit 5bcc022802dec2068da6059dd8132a4b34ba4e9c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 29 20:00:33 2021 +0530
+
+    overlaylay layout
+
+commit a8d4f8d26c0c7ba3b5941fe9a2bdec66d734cc6d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 29 18:21:01 2021 +0530
+
+    added: time duration of fetching results in humenize format
+
+commit 907aa1043a83fc58890fe34186c991a3108f8fa9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 29 18:06:09 2021 +0530
+
+    Fix recursive loadData on emtpy results and added humenize number for the total results
+
+commit fd556532465617e9c43208d0a1973972d96ad0db
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Sep 28 22:15:02 2021 +0530
+
+    Fixed: allow searchbar
+
+commit f969105909288ccd1259a87f1bbca414b5d68292
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Sep 28 20:57:32 2021 +0530
+
+    video preview
+
+commit 3abf4373dc783bca56101d59b15dad8173817190
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Sep 28 15:39:13 2021 +0530
+
+    Added: total number of feched records and fixed preview
+
+commit f88fb29bca3e9f3eeb9f3712f61203c2c52ed132
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 23 15:54:52 2021 +0530
+
+    remove string
+
+commit 2add9a6ced66134034bfef3af57f522de3e53107
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 23 15:54:38 2021 +0530
+
+    fix search and infinite scroll
+
+commit 08d698519aec69126de173dbbc49e5b44820c8ab
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 22 18:44:15 2021 +0530
+
+    add and remove facets
+
+commit 662c33c9f158939e6030a8b7725e42867b233575
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 22 18:43:43 2021 +0530
+
+    Auth
+
+commit ed58cca6d3d88faef259433a52f55dd1f7853271
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 22 18:43:27 2021 +0530
+
+    Auth
+
+commit af302629b5a60e2041be1e0523df17ee45f4a726
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 22 18:43:11 2021 +0530
+
+    Auth
+
+commit 4393a13f221ddc103135982407b8d3955a690cbd
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 22 01:51:37 2021 +0530
+
+    set sidebar layout if no view set in admin
+
+commit 7b4bc8824b778cd8994ca119db7d7d7726d28a9e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 22 01:50:47 2021 +0530
+
+    show download and permalink link if enabled from admin
+
+commit c53c2cf1e81ea3d687035e17e33e7dd723bcc54e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Sep 22 01:01:00 2021 +0530
+
+    Added React infinite scroll
+
+commit 963f10b878524ae1d151c18205eddfb26814b5b5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:31:38 2021 +0530
+
+    scss
+
+commit 5c703b1aff575ead67be178f180eea1c6858e680
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:24:30 2021 +0530
+
+    Added scss
+
+commit 925795fa66389d0b7c2c9ac7b9f3a2b60ac95616
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:14:10 2021 +0530
+
+    A reducer for selected elements
+
+commit 5900c4d0b696b624af813a6941caa52599f00d3e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:13:44 2021 +0530
+
+    Moved selected asset to selection reducer
+
+commit dc52ec9f6e8759f536cf55c3d1bf7dd962180f34
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:13:11 2021 +0530
+
+    Added selection reducer
+
+commit c2d5644544c94ae4a3bdfa0ac2b8d676bfe33d8e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:12:46 2021 +0530
+
+    added new actions
+
+commit 1a085a940aac5f122ad6589c8ec942d7ed869ac8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:12:34 2021 +0530
+
+    minor fixes
+
+commit 2c662bbec3ca037afd1aa8844db259521aed05a4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:12:15 2021 +0530
+
+    Sidebar layout UI
+
+commit 5cf74c2444f1b42b157645ebd303e0b6fe3e690e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:11:52 2021 +0530
+
+    UI fixes
+
+commit 8785f2e74052f81d7292c4aff23db7f6d9c828d5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:11:35 2021 +0530
+
+    Fixed search
+
+commit d7610d0c34eb18f1d546b39989b516ae67cf92d1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:11:09 2021 +0530
+
+    React modal block
+
+commit 9139efcfb5864c7b0d1fa0ffa3acd64484b2ff20
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:10:49 2021 +0530
+
+    Added new loading UI
+
+commit 7f84aecbe326d3460fbf176dbf7a6dce2eb41a8c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:10:28 2021 +0530
+
+    renamed
+
+commit 66eebd91abe79205c069c724e95bf3f564f51c34
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:10:03 2021 +0530
+
+    info block for errors and message
+
+commit df5b77510111e6989a3b0d2929c60e65c3e21149
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:09:41 2021 +0530
+
+    fix layout and added sample images if thumb not found
+
+commit 48d4917f71d44add335222595f20beb189685908
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:08:20 2021 +0530
+
+    loading spinner and info block if no results
+
+commit a9a9f3c76e7cdd5b7f2f73dee94b5e3bedfaa7c8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Sun Sep 19 10:06:39 2021 +0530
+
+    React modal
+
+commit 4c1267220a5902a2df72adc067969f63b0f63e48
+Merge: 4e506ea eb64c3d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:58:46 2021 +0530
+
+    Merge branch 'main' of github.com:sam0hack/Phraseanet-Wordpress-Client-Plugin
+
+commit 4e506ea9c6060f8c92aadbdb15636276ce6b11c8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:56:46 2021 +0530
+
+    Basic API service
+
+commit bf28723813647eb090401ee74024cda4a8b233b1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:56:23 2021 +0530
+
+    components
+
+commit a106942c2cbdb38c16c30366a298119cf195fe39
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:55:48 2021 +0530
+
+    Redux Store
+
+commit c546a1c87adbee30c6428c50555d2ebd26ff28c3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:55:25 2021 +0530
+
+    Debug component
+
+commit 770bf77c3bba25053cd9ae8bad1c24973a71750c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:55:13 2021 +0530
+
+    Content component
+
+commit a351d434206e490157d8513a11fe98e415e4b873
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:54:56 2021 +0530
+
+    setup react app
+
+commit 57f357ce9a798a7b44b147c7503ed5f1da60f9df
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:54:08 2021 +0530
+
+    clean
+
+commit c8d64a21bf29b374938bc7b317102cf5cc675526
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:53:32 2021 +0530
+
+    Loading UI component
+
+commit 5761b2152b4abf9e4b73669ac0659fdce5568d5d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:53:11 2021 +0530
+
+    config
+
+commit 8442cb787328803d95d0bff2a7c5a3e1bec28f11
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:52:54 2021 +0530
+
+    react dom
+
+commit a50830fb663a99719e60f7b057970063afebfcb4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Sep 16 12:52:26 2021 +0530
+
+    page config reducer
+
+commit eb64c3dbb33ec59fcf8938355d2dc00beaea44f4
+Merge: 03fc28c 30191a4
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Aug 20 16:15:27 2021 +0530
+
+    PC-33
+    
+    PC-33
+
+commit 30191a4ee0891a5b014e6bc794805e23f1a19d08
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 20 16:14:35 2021 +0530
+
+    PC-33  Generated Forms selection in the blocks
+
+commit fe3d25665a5c8c2c7699c1d1b5e3ab7f1865183f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Aug 18 16:11:58 2021 +0530
+
+    validation fixes PC-33
+
+commit 4873e5bcb76ca34e9ed59bd62793130e320b5723
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Aug 16 13:14:26 2021 +0530
+
+    Added multi-text PC-33
+
+commit 03fc28c2e76e77ed90fb850ab9ceb2be568d903c
+Merge: 0bbe36e 3ce1530
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Aug 13 22:11:25 2021 +0530
+
+    PC-33
+    
+    PC-33
+
+commit 3ce1530b93db4f5f114bd65bf97d6e0137492186
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 13 22:09:26 2021 +0530
+
+    PC-33
+
+commit 38190a1696b6e2e0467408efdaad5744b0d86287
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 13 20:28:26 2021 +0530
+
+    PC-33
+
+commit 0bbe36e94f40b719a9ec5968630c42b7415ea46f
+Merge: bb2eb25 b7b5169
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Aug 6 21:20:00 2021 +0530
+
+    Removed deprecated method componentWillMount
+    
+    Removed deprecated method componentWillMount
+
+commit b7b5169fd39253b5ae83194a79413130c677d2eb
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 6 21:12:56 2021 +0530
+
+    Removed depricated method componentWillMount
+
+commit bb2eb258825d6ebb0a8e9f277d811c54dae68152
+Merge: 95a04af 6f21d73
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Aug 6 20:42:14 2021 +0530
+
+    Merge pull request #72 from sam0hack/main
+    
+    fix spacing and add class in json
+
+commit 6f21d73d8e3400eee7dc94b63ff796b12526e20d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 6 20:36:21 2021 +0530
+
+    fix spacing and add class in json
+
+commit 95a04afa4850b6e42b548e2c30a2407bd2efab5c
+Merge: 73db2f2 4bb1c88
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Aug 6 20:34:51 2021 +0530
+
+    Form fixes
+    
+    Form fixes
+
+commit 4bb1c883450c8f811f156335fa8a0a315974125a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 6 20:34:12 2021 +0530
+
+    form fixes
+
+commit c91d02a1e20ef2d5ffb3eb5fc0e41434a6411807
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 6 20:24:22 2021 +0530
+
+    fix key prop
+
+commit 73db2f28857151b150c8c99c19da6a01131ed109
+Merge: ebd1db2 e11efac
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Aug 6 20:23:34 2021 +0530
+
+    Merge pull request #70 from sam0hack/main
+    
+    fix key prop
+
+commit e11efacb877531d180f655120d3704a1598f4ab2
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 6 20:22:29 2021 +0530
+
+    fix key prop
+
+commit ebd1db207ef1179dd00cea7d54051d66522e49d3
+Merge: 7ada08c 94dd01f
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Aug 6 20:07:53 2021 +0530
+
+    Merge pull request #69 from sam0hack/main
+    
+    fix json textArea
+
+commit 94dd01fa93a9a9edfbc09c08f2c5d1c4eb47f036
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Aug 6 20:07:04 2021 +0530
+
+    fix json textArea
+
+commit 7ada08c8f09e59cf5d93dd00f2c0a523b7b4fe79
+Merge: 0720962 1b45926
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Aug 5 11:19:12 2021 +0530
+
+    PC-33
+    
+    PC-33
+
+commit 1b4592619a2a416fde6d9f17e2ce1d6a1523e9a5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Aug 5 11:18:04 2021 +0530
+
+    PC-33
+
+commit 03ca0ef407dc729a25bf5768a00ede0bfdf57816
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Aug 2 22:56:15 2021 +0530
+
+    fix bugs and added new elements
+
+commit 48c4479b311ef8452cab348ddef2c2f46e5a9c30
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Aug 2 22:35:30 2021 +0530
+
+    fix bugs and added new elements
+
+commit 0720962f4978eecb290561957e992732a5261042
+Merge: 7d3510c 25244b0
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Jul 28 20:30:35 2021 +0530
+
+    PC-33
+    
+    PC-33
+
+commit 25244b01e8985eb8cb3fbaa58ee68b963be40c96
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jul 28 20:29:41 2021 +0530
+
+    PC-33
+
+commit 5a131f42b9747e0d6cf3eb75f4651536ae82c276
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jul 28 20:28:42 2021 +0530
+
+    PC-33
+
+commit 7d3510c9b317429a6e36c0039ec3813944ce723c
+Merge: b549b31 70483a3
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jul 23 15:51:23 2021 +0530
+
+    Merge pull request #66 from sam0hack/main
+    
+    remove debug messages
+
+commit 70483a3b759c78a37c57d73c3c2a563f572fae3c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jul 23 15:50:41 2021 +0530
+
+    remove debug messages
+
+commit b549b31128bc86346e4f0fa8822ee0feab417359
+Merge: f794126 324a62f
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jul 23 15:37:14 2021 +0530
+
+    PC-37 PC-30
+    
+    Config API to get all the plugin config.
+    Permalink Sharing option in admin panel
+    Admin can choose which asset to share.
+    When click on the permalink button the permalink will be copied to the clipboard
+
+commit 324a62f20bf89d205052b487cbbd4efab149df14
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jul 23 15:32:49 2021 +0530
+
+    PX-37
+
+commit f794126042f3295d2884b1ee763882a4d652c608
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Fri Jul 16 14:31:33 2021 +0200
+
+    remove labomedia
+
+commit 0ec915e9e4c0bbdf5e27217a88df5596cd98343f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jul 14 15:29:45 2021 +0530
+
+    fix ~ redux chrome extention
+
+commit 00cd9e21233dccace89c90ed56c5e10d3793fc54
+Merge: bd8bef7 8d4b24e
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Jul 14 15:10:44 2021 +0530
+
+    PC-33
+    
+    POC of react liforms in WP
+
+commit 8d4b24ed8099a239bce79374eb941b5a00dcc302
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jul 14 15:06:14 2021 +0530
+
+    Added: liforms POC
+
+commit bd8bef760877c9343c34c926a0a3fb129ac7a062
+Merge: 8cb102f 75f652a
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jul 12 16:15:57 2021 +0530
+
+    PC-35
+    
+    PC-35
+
+commit 75f652a75f97831d817048a11294550ce95307d2
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jul 12 16:14:41 2021 +0530
+
+    PC-35
+
+commit 8cb102fe1551754bd181917e3a95e527b23b90be
+Merge: fd3dc18 9ed9e6c
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jul 5 18:00:37 2021 +0530
+
+    PC-32 PC-28
+    
+    PC-32 PC-28
+
+commit 9ed9e6c4eb2fd318fd125e5497da819c16100431
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jul 5 17:58:40 2021 +0530
+
+    PC-32
+
+commit 0efca5ab0b5c14dada61cab9a11bd6d6d2182836
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jul 5 17:50:15 2021 +0530
+
+    Use plugin auth if logged in as admin
+
+commit f84a983466539c5da9d01c809fe3097039a125a4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jul 5 17:16:18 2021 +0530
+
+    Fix issues on php debug enable
+
+commit fd3dc18f735451c7c5ea63d0ac5c1969d45f93b7
+Merge: 050ae98 4fe8afa
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jul 2 21:07:36 2021 +0530
+
+    PC-27
+    
+    PC-27
+
+commit 4fe8afa0631e03f3477e2f611695056b0b5e0ff1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jul 2 21:05:36 2021 +0530
+
+    Hide the logged in message when logged out
+
+commit 050ae984b5f0d0ce02269e926e41d0adff1428fe
+Merge: ef2e689 c022605
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Jul 1 19:28:41 2021 +0530
+
+    PC-27
+    
+    PC-27
+
+commit c02260518288b57ac7c330e5e479473688514faa
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jul 1 19:05:22 2021 +0530
+
+    PC-27
+
+commit ef2e689114ddaf7745ecf0a55e64c7bace1ce4aa
+Merge: af62a1d 4c05faf
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Jul 1 18:31:04 2021 +0530
+
+    PC-31 PC-26
+    
+    PC-31 PC-26
+
+commit 4c05faf8ed1fb4be34b35e0842f9c289d37a0955
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jul 1 17:35:17 2021 +0530
+
+    PC-26
+
+commit f6380984695a5feccf27d15841962cc095489843
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jul 1 15:15:41 2021 +0530
+
+    PC-31
+
+commit 26c922b3211982070b739761a397623e123a5479
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jul 1 14:46:14 2021 +0530
+
+    Scroll style
+
+commit 33213d421c058ba62bc42a1cdbeb7267993e13b9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jul 1 14:24:27 2021 +0530
+
+    PC-26
+
+commit af62a1d9c332c5bca0dd16ca37f4fa9ec86685a8
+Merge: 0432412 28c0c2d
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Jun 29 20:42:52 2021 +0530
+
+    PC-29
+    
+    PC-29
+
+commit 28c0c2db46fcbb20c7a25fae494e0c0f8ab24c22
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jun 29 20:41:12 2021 +0530
+
+    PC-29
+
+commit a4cc6304a34dc00969e704126fd0335044fd3ac1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jun 29 06:08:01 2021 +0530
+
+    add responsive document view block
+
+commit 1b64eed67a62809314db59587ff5d61f55972f3e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jun 29 06:01:23 2021 +0530
+
+    responsive css
+
+commit ba7fdeb4c9ce49556957480b811a41b0f1ab0f7c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jun 29 05:38:33 2021 +0530
+
+    Sidebar view fix with details and responsive for large display
+
+commit 04324126b8b3f0fd6b55ead6cfaba10d6fc06f74
+Merge: 15f95ef 3b97530
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Jun 24 18:58:31 2021 +0530
+
+    PC-25
+    
+    PC-25
+
+commit 3b97530d72902af810c171ee2edd9fcd88e9ef48
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Jun 24 18:56:28 2021 +0530
+
+    firefox fix
+
+commit 15f95ef113fb766f0a42354422e3b481a3a81454
+Merge: 643e24d c939706
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Jun 23 22:48:57 2021 +0530
+
+    Merge pull request #56 from sam0hack/main
+    
+    Fixes
+
+commit c93970603f901df93877e89b467631abc4fea609
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jun 23 22:47:28 2021 +0530
+
+    fix: ReferenceError: regeneratorRuntime is not defined if not admin
+
+commit d11f2af82fac21dba3b9d594044c59d5b65a27f5
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jun 23 21:39:52 2021 +0530
+
+    fix: loader was not hiding on no results
+
+commit e79e88997ba91d98a5b2fdc6d947570e8e7eef3d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jun 23 21:37:32 2021 +0530
+
+    added id
+
+commit 5fdb89fbaf87b4b53232e258cccdaca34e8a76c6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jun 23 21:36:52 2021 +0530
+
+    replace js innerHtml method with jquery html method and stoped loading phraseanet method on auth page
+
+commit a74c660b53fa25f198e184f49c740591c1d81595
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Jun 23 21:18:57 2021 +0530
+
+    Fix error text align
+
+commit 643e24deb5f4cccb9657055927cef8507663d354
+Merge: a954822 b37320f
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Jun 22 18:04:11 2021 +0530
+
+    Merge pull request #55 from sam0hack/main
+    
+    Fixes
+
+commit b37320f13c9b923f47014b9abc7236bbc1228fdc
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jun 22 16:50:44 2021 +0530
+
+    minify fix
+
+commit 4701ff9a7664be8cc75be21e91523ec626827889
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jun 22 16:22:05 2021 +0530
+
+    fix: search button flots over sidebar image view
+
+commit dc8a169ebb8aa379a8b0b2be6a8f3fd5b5ff5591
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jun 21 19:09:06 2021 +0530
+
+    added: comments
+
+commit a954822f7cdc4f880be38ee74064ab2a07042fff
+Merge: 81d5ea6 c86b6e7
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jun 21 18:44:59 2021 +0530
+
+    Fix multiple request sending at once
+    
+    Fix multiple request sending at once on scroll
+
+commit c86b6e78d346b82f1397576056bd471cb0b45e31
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jun 21 18:41:52 2021 +0530
+
+    Fix multiple request sending at once
+
+commit 81d5ea6bc2269abe53d5a88bdf74f980094b2427
+Merge: 79aa006 15f0692
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jun 21 15:46:36 2021 +0530
+
+    PC-24
+    
+    PC-24
+
+commit 15f0692ef0a318fcb33651827db728db7bed0413
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jun 21 14:49:22 2021 +0530
+
+    Audio files support and default image on no-preview
+
+commit 64817260640c14fec1fffb96f95bfcbd512099bb
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jun 21 14:39:18 2021 +0530
+
+    Audio files support and default image on no-preview
+
+commit 79aa006e276f11d6812ab462b449262ef7f023c0
+Merge: d580baf 30886b8
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jun 18 22:07:45 2021 +0530
+
+    PC-22
+    
+    PC-22
+
+commit 30886b840e386896ea99f34c185310b48ea81c20
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 18 22:04:22 2021 +0530
+
+    Added elevation on sidebar
+
+commit 1fe1b34968acab01a177c1a6f77db683319cc94d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 18 21:54:20 2021 +0530
+
+    Fix sidebar view
+
+commit d580baf144c58fbc92cca933df2e979a2917b83c
+Merge: 9784e5f 96ab31e
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jun 14 21:53:22 2021 +0530
+
+    PC-22
+    
+    PC-22
+
+commit 96ab31e689fd91f2d8fda901cf80da356ef993a3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jun 14 21:52:23 2021 +0530
+
+    UI block
+
+commit 4cf72c7394ca4aee52871174f6ac9d7b45b7e4f4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jun 14 21:51:19 2021 +0530
+
+    UI block
+
+commit 00e20e159c068b96d2e37539160604bd540a5058
+Merge: 552b9d7 9784e5f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 11 17:21:30 2021 +0530
+
+    Merge branch 'main' of github.com:sam0hack/Phraseanet-Wordpress-Client-Plugin into main
+
+commit 552b9d7c3b14b00676f9a6dfffe83b88135c6685
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 11 17:20:59 2021 +0530
+
+    fixed preview reset bug when selecting preview for image.
+
+commit b055a0a2b0a6fa8c0b02acd44cf9b466cd100a25
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 11 17:02:24 2021 +0530
+
+    new strings
+
+commit bcfee30410d528635b0cb3503e89fe705c6c4797
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 11 14:44:10 2021 +0530
+
+    layouts
+
+commit 95fbd8b6de404a72ede19cf9493b3ad55dbdcff9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 11 14:27:05 2021 +0530
+
+    Added UI settings
+
+commit 7e4eeb9e3f80a83ebdaa9b588ac8a5e42aac2052
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 11 13:51:24 2021 +0530
+
+    UI layout
+
+commit 9784e5fdedb07db687b895c79796ad2b98818254
+Merge: a71e45d c6fa1b1
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Jun 8 21:39:26 2021 +0530
+
+    PC-21
+    
+    PC-21
+
+commit a71e45dddda5204ee72ec11692605940e2c7a3db
+Merge: 7c51ebd b5ed5ca
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Jun 8 21:38:10 2021 +0530
+
+    Merge pull request #49 from sam0hack/main
+    
+    Fix: preview details when selecting collection
+
+commit c6fa1b1a9a86621527361dff085f8d7085e45b4c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jun 8 21:37:09 2021 +0530
+
+    PC-21
+
+commit b5ed5ca9bc51798ce23c2739dd44f9b3eebc4fd3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Jun 8 16:08:10 2021 +0530
+
+    Fix: preview details when selecting collection
+
+commit 7c51ebd22c57bc477e4207eecbf76eea1c02dbb2
+Merge: fccff2b 6593e79
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Jun 7 17:24:18 2021 +0530
+
+    PC-18 finalized workflow
+    
+    PC-18 finalized workflow
+
+commit 6593e79f48088984298ceed1677ae26dab2c8640
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Jun 7 17:03:14 2021 +0530
+
+    PC-18 finalized workflow
+
+commit fccff2bb5321fa9152addc7f4c85cfa56ff99a93
+Merge: e7b3fe8 2265e6f
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jun 4 17:44:52 2021 +0530
+
+    PC-18 weblate translation
+    
+    PC-18 weblate translation
+
+commit 2265e6fd72de877a8d0351a9e10bcafc3b41c06c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 4 17:43:39 2021 +0530
+
+    clean up
+
+commit 5e5a9262d7a349f66f8a955fc4234bdd482104ba
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jun 4 12:07:14 2021 +0000
+
+    Translated using Weblate (English (United States))
+    
+    Currently translated at 1.4% (1 of 70 strings)
+    
+    Translation: Phraseanet Wordpress Client Plugin/Phraseanet Wordpress Client plugin
+    Translate-URL: https://hosted.weblate.org/projects/phraseanet-wordpress-client-plugin/phraseanet-wordpress-client-plugin/en_US/
+
+commit 2112b8b8e320d10a54153e9a878836a259d463a1
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jun 4 13:55:44 2021 +0200
+
+    Added translation using Weblate (English (United States))
+
+commit e7b3fe8e586903de436c8a1fe0f1f3d73701da8d
+Merge: 11f1733 1bcd962
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jun 4 17:35:26 2021 +0530
+
+    Merge pull request #46 from alchemy-fr/PC-18_weblate_translation
+    
+    removed old translation files
+
+commit 1bcd9627ff6bc9fc307368557b8c85c9a79adb89
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 4 17:34:31 2021 +0530
+
+    removed old transaltion files
+
+commit 11f17335326e65c41f35fd1c2c35810773d945cc
+Merge: 7c60a61 8c8e57d
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Jun 4 17:24:06 2021 +0530
+
+    PC-18
+    
+    pot template update
+
+commit 8c8e57d3bd7f6eddd0abd26ae938253a97dd1cdf
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Jun 4 17:23:09 2021 +0530
+
+    pot template update
+
+commit 7c60a61ba62687ebc53e5d06134e83f314ce1929
+Merge: 752d826 e6bccdc
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 31 21:21:47 2021 +0530
+
+    pc-18 POT
+    
+    POT
+
+commit e6bccdc8520ee8db7b7734319dc1e5209ebe28a7
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 31 21:15:33 2021 +0530
+
+    POT
+
+commit 752d82637ed1315c405e095330abac7301a54261
+Merge: db34375 9eab6ff
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 31 20:59:08 2021 +0530
+
+    PC-18 Intermediate language file
+    
+    Intermediate language file
+
+commit 9eab6ff4438163aefb20c8ef5913f19858d8c60f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 31 20:58:17 2021 +0530
+
+    Intermediate language file
+
+commit db34375f3a28a4a839c340f975cf8715493956c1
+Merge: 2d95d46 b5680a0
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 31 20:45:11 2021 +0530
+
+    PC-18 sync
+    
+    PC-18 sync
+
+commit b5680a0562ff0e8cf82770b45f0517fb5fce15ce
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 31 20:42:56 2021 +0530
+
+    PC-18 sync
+
+commit 079c8d8d71eb4674c50d4773b2373d6a208707c2
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 31 20:27:41 2021 +0530
+
+    PC-18 sync
+
+commit 2d95d46966809bc12b004349310b04939699e55b
+Merge: 5a63e7d b0eb104
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 31 20:21:53 2021 +0530
+
+    PC-18 weblate translation
+    
+    Pc 18 weblate translation
+
+commit b0eb104c6676a3454abc58c47b049ea893c30577
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 31 14:48:53 2021 +0000
+
+    Translated using Weblate (English (Developer))
+    
+    Currently translated at 1.4% (1 of 70 strings)
+    
+    Translation: Phraseanet Wordpress Client Plugin/Phraseanet-Wordpress-Client-Plugin
+    Translate-URL: https://hosted.weblate.org/projects/phraseanet-wordpress-client-plugin/phraseanet-wordpress-client-plugin/en_devel/
+
+commit 2e1286a3c23ff35ce83bfb581aa95796dda576b6
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 31 16:32:48 2021 +0200
+
+    Added translation using Weblate (English (Developer))
+
+commit 5a63e7dd09a38eac667a32fae4cfc4a7f77d810c
+Merge: bd6d6a6 6573b8e
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 31 20:16:34 2021 +0530
+
+    PC-18
+    
+    added po and mo for en_US
+
+commit 6573b8ea436f65f2af5b30afc5a579d6194639dd
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 31 20:14:52 2021 +0530
+
+    added po and mo for en_US
+
+commit bd6d6a6103a7101e693296b357cd4b50619833fd
+Merge: 19a40bd 1b79560
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 31 19:24:07 2021 +0530
+
+    PC-18
+    
+    added json for en_US
+
+commit 1b795603a107594a5f7ceb159a09114db3dc2d76
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 31 19:22:36 2021 +0530
+
+    added json for en_US
+
+commit 19a40bdf192cc5c483244c69830e7fc0f182a303
+Merge: cfbcc88 c999ec9
+Author: Sam <sam.nyx@live.com>
+Date:   Fri May 28 15:39:58 2021 +0530
+
+    fix: auth not int error and collection index error
+    
+    fix: auth not int error and collection index error
+
+commit c999ec9f6f4122a6276ca608a2738571febf117e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri May 28 15:39:19 2021 +0530
+
+    fix: auth not int error and collection index error
+
+commit cfbcc88fee6d8878d1d2d26b0b2624fddaff5adb
+Merge: 379fca6 e351e0f
+Author: Sam <sam.nyx@live.com>
+Date:   Fri May 28 15:12:12 2021 +0530
+
+    PC-20
+    
+    PC-20
+
+commit e351e0fff7a3b50d12c5389ba5307856b7188e01
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri May 28 15:11:09 2021 +0530
+
+    PC-20
+
+commit 379fca6219138bc746c32fd50b63247890aace86
+Merge: 49aafe2 ebeddce
+Author: Sam <sam.nyx@live.com>
+Date:   Fri May 28 14:59:58 2021 +0530
+
+    Removed search type and record type options from the search bar and s…
+    
+    Removed search type and record type options from the search bar and s…
+
+commit 49aafe205dfe2066cdc8c33058eb50117253ef09
+Merge: e0399cf 5a3d38e
+Author: Sam <sam.nyx@live.com>
+Date:   Fri May 28 14:58:39 2021 +0530
+
+    PC-4
+    
+    PC-4
+
+commit ebeddce4952f68e9dd0ac788cb82dad530d9c693
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri May 28 14:57:43 2021 +0530
+
+    Removed search type and record type options from the search bar and search input type size increased
+
+commit 5a3d38e38b5d307c51dc1ce6d6262f98f51a6813
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri May 28 13:44:41 2021 +0530
+
+    Grouped collection
+
+commit e0399cf5064f1261a5c19a63ba83af864fade669
+Merge: d856daa dfaf5d9
+Author: Sam <sam.nyx@live.com>
+Date:   Thu May 27 20:54:14 2021 +0530
+
+    Fix pagination
+    
+    Fix pagination
+
+commit dfaf5d927bef5060562d415c794a134a089014fe
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu May 27 17:15:05 2021 +0530
+
+    Fix pagination
+
+commit d856daa40b2a8cbb78000716758bd5f59cd9bf56
+Merge: 1625c20 2d9bf0c
+Author: Sam <sam.nyx@live.com>
+Date:   Wed May 26 16:53:36 2021 +0530
+
+    code cleanup and comments
+    
+    code cleanup and comments
+
+commit 2d9bf0c46008f2ad8740e538896568f37877742f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 26 16:52:45 2021 +0530
+
+    code cleanup and comments
+
+commit 1625c208f8e3d0a0851c4ed315883e1c4279d728
+Merge: f8e7b20 304325d
+Author: Sam <sam.nyx@live.com>
+Date:   Wed May 26 16:03:15 2021 +0530
+
+    PC-8
+    
+    PC-8
+
+commit 304325dd47eb61869a9e860f3362816da18effb3
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 26 16:02:16 2021 +0530
+
+    PC-8
+
+commit 843bc04e626f39d34813e3960de7258a3866715e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 26 14:05:45 2021 +0530
+
+    PC-8
+
+commit f8e7b2076a4018bf85edf634b31b04f643999207
+Merge: d4f1451 3602025
+Author: Sam <sam.nyx@live.com>
+Date:   Tue May 25 00:46:25 2021 +0530
+
+    PC-4
+    
+    PC-4
+
+commit 3602025f93d8f9be4e307cae9150d59f908bec03
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 24 22:53:26 2021 +0530
+
+    fix: issue on collections
+
+commit 5179d51e6b26e4416ef13bece2d06e4b88f237c8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 24 21:44:33 2021 +0530
+
+    build lang from latest po
+
+commit a42b2542b960c3e20d07f1381c924685adddada4
+Merge: 4572fb2 d4f1451
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 24 21:41:09 2021 +0530
+
+    Merge branch 'main' of github.com:sam0hack/Phraseanet-Wordpress-Client-Plugin into main
+
+commit 4572fb2c72ba99a76d361a9789e9ca10f76321f6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 24 21:40:55 2021 +0530
+
+    Added Redux and PC-4
+
+commit d4f14515fe9f822a82051f712b14e508b81468f6
+Merge: 7963c57 eb3e22d
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Thu May 20 18:45:20 2021 +0200
+
+    Merge pull request #30 from alchemy-fr/PC-18_weblate_translation
+    
+    Translated using Weblate (French)
+
+commit eb3e22d215c32962fd2eadc35b393f66e543bdae
+Author: Nicolas Maillat <maillat@alchemy.fr>
+Date:   Thu May 20 16:35:08 2021 +0000
+
+    Translated using Weblate (French)
+    
+    Currently translated at 81.1% (56 of 69 strings)
+    
+    Translation: Phraseanet Wordpress Client Plugin/Phraseanet Wordpress Client Plugin
+    Translate-URL: https://hosted.weblate.org/projects/phraseanet-wordpress-client-plugin/phraseanet-wordpress-client-plugin/fr/
+
+commit 7963c57f8e0891ba5d6f0f8d5cfc8a6353bd5aaa
+Merge: b56dcf4 b9dcb90
+Author: Sam <sam.nyx@live.com>
+Date:   Wed May 19 21:39:19 2021 +0530
+
+    Merge pull request #29 from sam0hack/main
+    
+    Fix plugin installation one and always option
+
+commit b9dcb905e9ee5d921a126424ed7e327b2be0cb0c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 19 21:38:19 2021 +0530
+
+    Fix plugin installation one and always option
+
+commit b56dcf440a0d372467e0e64a7152c35a20266e95
+Merge: 49582a4 2a22989
+Author: Sam <sam.nyx@live.com>
+Date:   Wed May 19 18:43:03 2021 +0530
+
+    PC-17
+    
+    PC-17
+
+commit 2a22989b78daa5eec9e13fa8cbb05b1c9bb1575a
+Author: Sam <sam.nyx@live.com>
+Date:   Wed May 19 18:41:36 2021 +0530
+
+    Update README.md
+
+commit 6331f0277a6907ac2b71b8b0b52c9ca5168ed181
+Author: Sam <sam.nyx@live.com>
+Date:   Wed May 19 18:41:22 2021 +0530
+
+    Update README.md
+
+commit 1a3b5b7324f6a5b3864132a25013530a068a1366
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 19 18:40:38 2021 +0530
+
+    Readme update
+
+commit 95621655b7eda808fc1cb4c578451686b42466bf
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 19 18:35:58 2021 +0530
+
+    plugin packager
+
+commit 49582a47cf4ec40e311e06cc6723395aa75e000f
+Merge: 9cc0256 d2cfe1c
+Author: Sam <sam.nyx@live.com>
+Date:   Tue May 18 21:38:47 2021 +0530
+
+    Merge pull request #27 from sam0hack/main
+    
+    build bundle
+
+commit d2cfe1c35f88b5593619435ea5012ba04fc5e6bb
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 18 21:37:27 2021 +0530
+
+    build bundle
+
+commit 9cc025692c2f45103bdf1588d9a0d3ecf22631a5
+Merge: 9e7aa3a d63cc53
+Author: Sam <sam.nyx@live.com>
+Date:   Tue May 18 21:21:06 2021 +0530
+
+    fix gulp bundle
+    
+    fix gulp bundle
+
+commit d63cc5378bc6f0c06f5d014a516503227fa1f657
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 18 21:20:02 2021 +0530
+
+    fix gulp
+
+commit 9e7aa3a3b2a0e664b6ba724b1d284ffbe1b91c20
+Merge: 8a255b2 1b6a34f
+Author: Sam <sam.nyx@live.com>
+Date:   Tue May 18 20:23:44 2021 +0530
+
+    PC-10
+    
+    PC-10
+
+commit 1b6a34f5db865f8895cd710c02fa16dbaa4e962b
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 18 20:22:47 2021 +0530
+
+    PC-10
+
+commit 8a255b227fcdefc2e8c439374c564c25f3f23bde
+Merge: 4943dcb 1980f95
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 17 18:56:48 2021 +0530
+
+    PC-14
+    
+    Added: more string and npm command `npm run build:lang` to build Gutenberg lang JSON file
+
+commit 1980f956d60327228090cd5fd59e7f6faf29e4b4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 17 18:54:28 2021 +0530
+
+    PC-14
+
+commit 4943dcb1b82e50af7c9e689d79cac9bc609f2270
+Merge: ccb80ce c7b74cd
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 17 17:54:44 2021 +0530
+
+    PC-12
+    
+    PC-12
+
+commit ccb80ce6eb1c14590e6ae2286a2219398451ac5c
+Merge: 45c9629 0cf98cf
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 17 17:53:57 2021 +0530
+
+    PC-8
+    
+    PC-8
+
+commit c7b74cd00c188f6e0a37442470886a81d6929aa2
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 17 17:53:31 2021 +0530
+
+    PC-12
+
+commit 0cf98cf9c213e7f409cc5718afdb123147588f85
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 17 17:17:12 2021 +0530
+
+    PC-8
+
+commit 45c96299d6e24ed3ee56105cf3b9ea0ce9fc333f
+Merge: cebcdf2 21ca183
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 17 15:33:57 2021 +0530
+
+    PC-16
+    
+    Added: debug mode PC-16
+
+commit 21ca1831d6ab1058183d0efb4cf9c59ccfca8d39
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri May 14 14:56:38 2021 +0530
+
+    Added: debug mode PC-16
+
+commit cebcdf2956c1ec557ccfee32404ccd29fe1cefb5
+Merge: b4069e0 71a691a
+Author: Sam <sam.nyx@live.com>
+Date:   Thu May 13 16:29:25 2021 +0530
+
+    PC-14
+    
+    Added: localization support and translations for FR
+
+commit 71a691a9d4f4455cabe2d48833464d5e65f20bf2
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu May 13 16:27:43 2021 +0530
+
+    Added: localization support and translations for FR
+
+commit 9d3c1c7d126539f6b58fd35928a32a5129cc300c
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 12 15:38:42 2021 +0530
+
+    62
+    
+    Add the capability CAP_SYS_NICE to container until MySQL server can handle the error itself silently.
+
+commit b4069e01705b8733b63f456f7998ea9c3ee812c1
+Merge: 5010aa9 1a5a4fe
+Author: Sam <sam.nyx@live.com>
+Date:   Tue May 11 19:35:04 2021 +0530
+
+    PC-2
+    
+    Individual auth setting for block.
+
+commit 1a5a4fe5dd4eccbdc743c11dc19970b12d97f1dc
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 11 19:33:28 2021 +0530
+
+    individual auth setting for block
+
+commit 5010aa95dd4518b1dd6fa62133d89b5d499c7b80
+Merge: e519292 2319dd7
+Author: Sam <sam.nyx@live.com>
+Date:   Tue May 11 18:45:46 2021 +0530
+
+    PC-5 PC-6
+    
+    PC-5 PC-6
+
+commit 2319dd7fb4788ea9838f74fa13cf81172967df31
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 11 18:44:29 2021 +0530
+
+    Query wrapper
+
+commit 6cb22aca713fd170e1c1f35c59db702737c8d7be
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 11 18:31:52 2021 +0530
+
+    added: number of results in facets
+
+commit e519292287cd3fc238a0ed5e69db25db9ff2e4ea
+Merge: 7e04339 4181975
+Author: Sam <sam.nyx@live.com>
+Date:   Tue May 11 17:43:36 2021 +0530
+
+    PC-4
+    
+    PC-4
+
+commit 418197555f846c5ef074ee0f52ec0dda0895e0ec
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 11 17:42:14 2021 +0530
+
+    collections
+
+commit 7e04339b0fee8bfc547323d996beec6ba172e87b
+Merge: a21eab3 64e689e
+Author: Sam <sam.nyx@live.com>
+Date:   Tue May 11 15:44:54 2021 +0530
+
+    PC-5 PC-6
+    
+    PC-5 PC-6
+
+commit 64e689e8d7ca3842f9856c8bb717472587a67d8a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 11 15:43:19 2021 +0530
+
+    alloweb
+
+commit d4dd58776120ac2047280c8311af8e788458d612
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 10 16:20:35 2021 +0530
+
+    urls
+
+commit a21eab3a0d146d783e89afc2912c7ccb269a4851
+Merge: c127bda a0184e0
+Author: Sam <sam.nyx@live.com>
+Date:   Mon May 10 14:54:24 2021 +0530
+
+    Merge pull request #15 from sam0hack/main
+    
+    ssh
+
+commit a0184e0a98adb4fa8cce3edafa2b74333deb8c6a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon May 10 14:53:08 2021 +0530
+
+    ssh
+
+commit c127bda407d8cbbf378fb5b461a32a0b640ec630
+Merge: f43d962 099dcfc
+Author: Sam <sam.nyx@live.com>
+Date:   Thu May 6 19:02:45 2021 +0530
+
+    PC-13
+    
+    Search Mode
+
+commit 099dcfcf5aef0162ec0a7355fb16a04b0f7259ad
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu May 6 19:00:54 2021 +0530
+
+    search mode
+
+commit f43d962563ac1c7765f57daa862e048f8be75792
+Merge: 0233199 9409b62
+Author: Sam <sam.nyx@live.com>
+Date:   Thu May 6 18:49:22 2021 +0530
+
+    PC-9
+    
+    Phraseanet block title
+
+commit 9409b6255ef3fc2c027a98fa8f6012e938028d49
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu May 6 18:47:35 2021 +0530
+
+    phraseanet block Title
+
+commit 0233199b9c50662a0ea082d714f2015832c1e03b
+Merge: 006ba03 f0c2a6c
+Author: Sam <sam.nyx@live.com>
+Date:   Thu May 6 17:42:56 2021 +0530
+
+    PC-4 PC-5 PC-6
+    
+    PC-4 PC-5 PC-6
+
+commit f0c2a6c334cdbb71265b23db14684f72ad010838
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu May 6 17:32:19 2021 +0530
+
+    Restrict facets in sidebar
+
+commit 20b703c7d3f23af10f69c9122dbf7d0dd16180eb
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu May 6 16:08:24 2021 +0530
+
+    update
+
+commit aa8e84f944901d8dfdd6ec65af57dee3193c7ffa
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu May 6 16:01:25 2021 +0530
+
+    docker
+
+commit 4dfd36e7e290b9ad47161226ce40bbe0e66cf523
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 5 20:13:44 2021 +0530
+
+    typo
+
+commit 918fe719524af28c91d2615108710bb7fb85c18a
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 5 20:02:18 2021 +0530
+
+    integrated meta with frontQuery and change collection from checkbox to radio button
+
+commit e985bda2c5be42bf0634560342e4ba46fdcba8f7
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 5 15:51:47 2021 +0530
+
+    facets details in meta
+
+commit f02c6e10529d8aa18caf1105dd82d8588abb8d58
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed May 5 11:48:50 2021 +0530
+
+    added: Query meta
+
+commit 94252854291b8b4b6d23b1f13d9a6307abe82758
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 4 18:58:18 2021 +0530
+
+    loader
+
+commit 3ab1a9bb510605c624d83c61449de62c391b5ba9
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue May 4 16:43:33 2021 +0530
+
+    Added npm webpack, eslint, JSX.
+
+commit e5bba1c208d4e4fd049508e4898384b323431e7f
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Apr 26 19:12:18 2021 +0530
+
+    Added: webpack,jsx and gulp
+
+commit 006ba03ae052f43cf220a5f9f7ced0c6a6749f4b
+Merge: 5fcaa3d b2db9dc
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Apr 26 16:26:38 2021 +0530
+
+    PC-2 and PC-3
+    
+    User can make phraseanet auth request
+
+commit b2db9dc9d67df48ad48bc4dd8dfbaef5bf6404e4
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Apr 22 17:26:48 2021 +0530
+
+    User can make phraseanet auth request
+
+commit 5fcaa3d4c7899ea128b9d95d1561ac88ae21f175
+Merge: 1086b34 e61c912
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Apr 16 15:41:32 2021 +0530
+
+    PC-1
+    
+    fix Token issue
+
+commit e61c912e4a57abbd94233ab2ec441c6a9012841e
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Apr 16 15:40:48 2021 +0530
+
+    fix Token issue
+
+commit 1086b342833e95ebedab23854051210af5eda7ba
+Merge: f552983 706ab7b
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Apr 16 15:32:18 2021 +0530
+
+    PC-1
+    
+    Docker
+
+commit 706ab7b2fe8a77a3f2c2a51ae7e308ee5182fc69
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Apr 16 15:31:17 2021 +0530
+
+    Docker
+
+commit f552983fb76acaa62ecd7c66b4014423777f726a
+Merge: f1e3b95 161d0e2
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Apr 16 15:04:44 2021 +0530
+
+    PC-1
+    
+    fix an issue when URL not set
+
+commit 161d0e2eb0ec0cadacf0aeebfd6a5a17094a8cc6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Apr 16 15:03:36 2021 +0530
+
+    fix issue when url not set
+
+commit f1e3b95f5f418227a4e6acd71616e07802b446e0
+Merge: ffe3afc 11ef776
+Author: Sam <sam.nyx@live.com>
+Date:   Fri Apr 16 14:00:25 2021 +0530
+
+    PC-1
+    
+    added: UI option in the admin
+
+commit 11ef77652398c7d5bfcab0a1bbad72e00263bea1
+Author: sam0hack <sam.nyx@live.com>
+Date:   Fri Apr 16 13:58:57 2021 +0530
+
+    added: UI option in the admin
+
+commit ffe3afcb7f3a668f0a4438810aa94d701a04b1c9
+Merge: d4deb6b 8850c44
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Apr 15 17:22:28 2021 +0530
+
+    PC-1
+    
+    Added:  facets search
+
+commit 8850c4422d77004ab265b697c6c4936cf541d9c6
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Apr 15 17:19:27 2021 +0530
+
+    added: facets search
+
+commit 21817816af1b2116864e0115e4dc379b591378c8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Wed Apr 14 17:15:52 2021 +0530
+
+    improved design
+
+commit d4deb6b0fcf02d7112aaf3092117607d7f67bb2d
+Merge: b8b76c3 c6740cc
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Apr 13 20:53:50 2021 +0530
+
+    PC-1
+    
+    improved search with recordType
+
+commit c6740cc3487863fe2b6b5008ce09964277334643
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Apr 13 20:52:54 2021 +0530
+
+    improved search with recordType
+
+commit b8b76c3a48eaf09f3b1206489598196ca9eda979
+Merge: c5942d5 9bbc25f
+Author: Sam <sam.nyx@live.com>
+Date:   Tue Apr 13 20:09:18 2021 +0530
+
+    PC-1
+    
+    Added: search functionality
+
+commit 9bbc25f2e02bcc28d4ed3285711b29db889baaaf
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Apr 13 20:07:00 2021 +0530
+
+    Added: search functionality
+
+commit 379dc20c99975cc3c637afda7ce97e974c548035
+Author: sam0hack <sam.nyx@live.com>
+Date:   Tue Apr 13 18:31:48 2021 +0530
+
+    Clean code and fix indentation. rename SDK class to Phraseanet_WP
+
+commit c5942d53839d3698f852a28f1f91d4ffecd7d345
+Merge: 8cfbea2 a083d3f
+Author: Sam <sam.nyx@live.com>
+Date:   Mon Apr 12 21:04:09 2021 +0530
+
+    Merge pull request #3 from sam0hack/main
+    
+    added UI with pagination
+
+commit a083d3f0016d257958cf79847ca56ecf6e10ab16
+Author: sam0hack <sam.nyx@live.com>
+Date:   Mon Apr 12 21:02:54 2021 +0530
+
+    added UI with pagination
+
+commit 8cfbea2280eb390aac5bdcbcaa3f8dd37257c3f6
+Merge: 91a55b6 6cdc420
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Apr 1 20:00:28 2021 +0530
+
+    PC-1
+    
+    added: shortcode and phraseanet logo
+
+commit 6cdc42035b26e0c89c343618d48b8612b75a5967
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Apr 1 19:59:20 2021 +0530
+
+    added: shortcode and phraseanet logo
+
+commit 91a55b62e32b7105f4c3df6beae7effeb11a0d2d
+Merge: 3fbef04 feeb01f
+Author: Sam <sam.nyx@live.com>
+Date:   Thu Apr 1 19:01:46 2021 +0530
+
+    PC-1
+    
+    Base plugin with Gutenberg block and plugin settings
+
+commit feeb01f00c0c27c98821185c4e9c2f4b9580243d
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Apr 1 18:56:03 2021 +0530
+
+    Added: plugin settings page
+
+commit 341a47dfc5401e0008cfd4e4f586661931985cf8
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Apr 1 18:55:45 2021 +0530
+
+    Added: Bootstrap
+
+commit cf79e06cb057f907674069d56f62473b955c84ef
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Apr 1 03:06:11 2021 +0530
+
+    clean
+
+commit 7a9ee907a8a939c4caa6d4033509d1f3fc4d95a0
+Author: sam0hack <sam.nyx@live.com>
+Date:   Thu Apr 1 03:04:49 2021 +0530
+
+    init
+
+commit 3fbef04971c3ddb411380a9fd5686b0febf1f789
+Author: Sam <sam.nyx@live.com>
+Date:   Wed Mar 24 15:14:04 2021 +0530
+
+    Create README.md

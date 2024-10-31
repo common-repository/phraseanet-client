@@ -1,0 +1,21 @@
+{
+    "translation-revision-date": "",
+    "generator": "WP-CLI\/2.5.0",
+    "source": "admin\/blocks\/client-block\/partials-blocks\/ComplexQuery.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en_US",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "This Query will be wrapped in ( ). Please, wrap field value in double quotation ( \"\" ). E.g. field.CadrageFr = \"Plan moyen\"": [
+                ""
+            ],
+            "Display search bar": [
+                ""
+            ]
+        }
+    }
+}

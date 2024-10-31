@@ -1,0 +1,45 @@
+{
+    "translation-revision-date": "",
+    "generator": "WP-CLI\/2.5.0",
+    "source": "admin\/blocks\/client-block\/partials-blocks\/Subdef.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en_US",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Thumbnail": [
+                ""
+            ],
+            "This will show on the website thumbnails": [
+                ""
+            ],
+            "Preview": [
+                ""
+            ],
+            "This will show on the model when use preview the media": [
+                ""
+            ],
+            "Enable download assets": [
+                ""
+            ],
+            "Download": [
+                ""
+            ],
+            "Downloadble asset": [
+                ""
+            ],
+            "Enabled Permalink sharing": [
+                ""
+            ],
+            "Permalink": [
+                ""
+            ],
+            "Share Permalink": [
+                ""
+            ]
+        }
+    }
+}

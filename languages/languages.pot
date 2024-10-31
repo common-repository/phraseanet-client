@@ -1,0 +1,411 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;__e;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: admin/blocks\n"
+"X-Poedit-SearchPath-1: public/partials\n"
+"X-Poedit-SearchPath-2: admin/partials\n"
+"X-Poedit-SearchPath-3: public/src\n"
+
+#: admin/blocks/client-block/index.js:34
+msgid "Phraseanet client block"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:35
+msgid "display's an elegent phraseanet block."
+msgstr ""
+
+#: admin/blocks/client-block/index.js:36 admin/blocks/client-block/index.js:43
+msgid "media"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:41
+msgid "phraseanet"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:42
+msgid "Phra"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:44
+msgid "image"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:45
+msgid "photo"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:54
+msgid "Auth"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:59
+msgid "Block title"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:66 public/src/components/Debug.js:27
+msgid "Collections"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:71
+msgid "Collections list"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:78
+msgid "Query"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:84
+msgid "Define displayed facets"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:98
+msgid "Preview Details"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:104
+msgid "List of Preview details objects"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:112
+msgid "Sub Definition mapping"
+msgstr ""
+
+#: admin/blocks/client-block/index.js:118
+msgid "UI settings"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Auth.js:31
+#: admin/partials/phraseanet-admin-display-auth.php:135
+msgid "User must be authenticated with Phraseanet Account to access records"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/ComplexQuery.js:34
+msgid ""
+"This Query will be wrapped in ( ). Please, wrap field value in double "
+"quotation ( \"\" ). E.g. field.CadrageFr = \"Plan moyen\""
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/ComplexQuery.js:49
+msgid "Display search bar"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Debug.js:28
+msgid "Show debug information"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/GeneratedForms.js:38
+msgid "Choose a requester"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/PreviewDetails.js:20
+msgid ""
+"Fields that will display on the preview Eg. title,keyword,city . leave blank "
+"to display all fields"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:122
+#: admin/blocks/client-block/partials-blocks/Subdef.js:202
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:124
+#: admin/blocks/client-block/partials-blocks/Subdef.js:204
+msgid "This will show on the website thumbnails"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:137
+#: admin/blocks/client-block/partials-blocks/Subdef.js:217
+msgid "Preview"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:139
+#: admin/blocks/client-block/partials-blocks/Subdef.js:219
+msgid "This will show on the model when use preview the media"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:154
+msgid "Enable download assets"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:164
+msgid "Download"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:165
+msgid "Downloadble asset"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:178
+msgid "Enabled Permalink sharing"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:188
+msgid "Permalink"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Subdef.js:189
+msgid "Share Permalink"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/Title.js:26
+msgid "Set the Title for this block"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/UI.js:28
+msgid "Preview asset ui"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/UI.js:31
+msgid "Overlay"
+msgstr ""
+
+#: admin/blocks/client-block/partials-blocks/UI.js:32
+msgid "Sidebar"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:26
+#: admin/partials/phraseanet-admin-display-other-settings.php:26
+msgid "Phraseanet client plugin"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:59
+msgid "Auth Phraseanet with token"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:67
+msgid "Auth Phraseanet with username and password"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:81
+msgid "Phraseanet URL"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:83
+msgid "Enter your phraseanet url"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:90
+#: public/partials/phraseanet-public-auth-form-display.php:57
+msgid "Username"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:92
+msgid "Enter your phraseanet Username"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:97
+#: public/partials/phraseanet-public-auth-form-display.php:62
+msgid "Password"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:99
+msgid "Enter your phraseanet Password"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:107
+msgid "Client id"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:109
+msgid "Enter your phraseanet client id"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:114
+msgid "Client Secret"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:116
+msgid "Enter your phraseanet client secret"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:122
+msgid "Token"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:124
+msgid "Enter your Token"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:126
+msgid "Generate token in phraseanet and add it here"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-auth.php:138
+#: admin/partials/phraseanet-admin-display-other-settings.php:74
+msgid "Save"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:41
+msgid "Phraseanet setting"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:45
+msgid "Number of records per page"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:47
+msgid "Enter Number Eg. 50"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:49
+msgid "Default is 50 records per page"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:56
+msgid "UI"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:59
+msgid "Modal backgorund color"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:61
+#: admin/partials/phraseanet-admin-display-other-settings.php:69
+msgid "Color"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:63
+msgid "to make it transparent or any color value like"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:63
+msgid "Blue"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:63
+msgid "to make solid background"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:67
+msgid "Modal font color"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:71
+msgid "White"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:71
+msgid "Red"
+msgstr ""
+
+#: admin/partials/phraseanet-admin-display-other-settings.php:71
+msgid "or any"
+msgstr ""
+
+#: public/partials/phraseanet-public-auth-form-display.php:30
+msgid "Invalid login creadentials!"
+msgstr ""
+
+#: public/partials/phraseanet-public-auth-form-display.php:34
+msgid "Please submit valid Username and password"
+msgstr ""
+
+#: public/partials/phraseanet-public-auth-form-display.php:51
+msgid "Phraseanet Login"
+msgstr ""
+
+#: public/partials/phraseanet-public-auth-form-display.php:67
+msgid "Login"
+msgstr ""
+
+#: public/partials/phraseanet-public-display.php:117
+msgid "Search"
+msgstr ""
+
+#: public/partials/phraseanet-public-display.php:124
+#: public/src/components/Debug.js:41 public/src/components/Search.js:67
+msgid "Sort"
+msgstr ""
+
+#: public/partials/phraseanet-public-display.php:125
+#: public/src/components/Search.js:68
+msgid "Relevance"
+msgstr ""
+
+#: public/partials/phraseanet-public-display.php:126
+#: public/src/components/Search.js:70
+msgid "Created on"
+msgstr ""
+
+#: public/partials/phraseanet-public-display.php:127
+#: public/src/components/Search.js:73
+msgid "Updated on"
+msgstr ""
+
+#: public/partials/phraseanet-public-display.php:132
+#: public/src/components/Search.js:83
+msgid "Order by"
+msgstr ""
+
+#: public/partials/phraseanet-public-display.php:133
+#: public/src/components/Search.js:84
+msgid "Ascending"
+msgstr ""
+
+#: public/partials/phraseanet-public-display.php:134
+#: public/src/components/Search.js:85
+msgid "Descending"
+msgstr ""
+
+#: public/src/components/Content.js:86
+msgid "About"
+msgstr ""
+
+#: public/src/components/Content.js:88
+msgid "results"
+msgstr ""
+
+#: public/src/components/Debug.js:19
+msgid "Params"
+msgstr ""
+
+#: public/src/components/Debug.js:22
+msgid "Page"
+msgstr ""
+
+#: public/src/components/Debug.js:32
+msgid "Search Param"
+msgstr ""
+
+#: public/src/components/Debug.js:37
+msgid "Order"
+msgstr ""
+
+#: public/src/components/Debug.js:46
+msgid "Network"
+msgstr ""
+
+#: public/src/components/Debug.js:49
+msgid "Query URL"
+msgstr ""
+
+#: public/src/components/Debug.js:54
+msgid "Method"
+msgstr ""
+
+#: public/src/components/Debug.js:59
+msgid "RealTime Query"
+msgstr ""
+
+#: public/src/components/JsonGeneratedForms.js:226
+msgid "Reset"
+msgstr ""
+
+#: public/src/components/LoggedIn.js:16
+msgid "You are logged in as"
+msgstr ""
+
+#: public/src/components/LoggedIn.js:27
+msgid "Logout"
+msgstr ""

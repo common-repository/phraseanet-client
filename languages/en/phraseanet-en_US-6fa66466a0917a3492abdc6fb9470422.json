@@ -1,0 +1,66 @@
+{
+    "translation-revision-date": "",
+    "generator": "WP-CLI\/2.5.0",
+    "source": "admin\/blocks\/client-block\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en_US",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Phraseanet client block": [
+                ""
+            ],
+            "display's an elegent phraseanet block.": [
+                ""
+            ],
+            "media": [
+                ""
+            ],
+            "phraseanet": [
+                ""
+            ],
+            "Phra": [
+                ""
+            ],
+            "image": [
+                ""
+            ],
+            "photo": [
+                ""
+            ],
+            "Auth": [
+                ""
+            ],
+            "Block title": [
+                ""
+            ],
+            "Collections": [
+                ""
+            ],
+            "Collections list": [
+                ""
+            ],
+            "Query": [
+                ""
+            ],
+            "Define displayed facets": [
+                ""
+            ],
+            "Preview Details": [
+                ""
+            ],
+            "List of Preview details objects": [
+                ""
+            ],
+            "Sub Definition mapping": [
+                ""
+            ],
+            "UI settings": [
+                ""
+            ]
+        }
+    }
+}

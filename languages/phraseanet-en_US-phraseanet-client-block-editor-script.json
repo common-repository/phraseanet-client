@@ -1,0 +1,198 @@
+{
+   "": {
+      "project-id-version": "",
+      "report-msgid-bugs-to": "",
+      "last-translator": "",
+      "language-team": "",
+      "mime-version": "1.0",
+      "content-type": "text/plain; charset=UTF-8",
+      "content-transfer-encoding": "8bit",
+      "pot-creation-date": "",
+      "po-revision-date": "",
+      "language": "en_US",
+      "x-generator": "Poedit 3.0",
+      "x-poedit-keywordslist": "__;__e;_e",
+      "x-poedit-basepath": "..",
+      "plural-forms": "nplurals=2; plural=(n != 1);",
+      "x-poedit-searchpath-0": "admin/blocks",
+      "x-poedit-searchpath-1": "public/partials",
+      "x-poedit-searchpath-2": "admin/partials",
+      "x-poedit-searchpath-3": "public/src"
+   },
+   "User must be authenticated with Phraseanet Account to access records": [
+      null,
+      ""
+   ],
+   "Phraseanet client plugin": [
+      null,
+      ""
+   ],
+   "Auth Phraseanet with token": [
+      null,
+      ""
+   ],
+   "Auth Phraseanet with username and password": [
+      null,
+      ""
+   ],
+   "Phraseanet URL": [
+      null,
+      ""
+   ],
+   "Enter your phraseanet url": [
+      null,
+      ""
+   ],
+   "Username": [
+      null,
+      ""
+   ],
+   "Enter your phraseanet Username": [
+      null,
+      ""
+   ],
+   "Password": [
+      null,
+      ""
+   ],
+   "Enter your phraseanet Password": [
+      null,
+      ""
+   ],
+   "Client id": [
+      null,
+      ""
+   ],
+   "Enter your phraseanet client id": [
+      null,
+      ""
+   ],
+   "Client Secret": [
+      null,
+      ""
+   ],
+   "Enter your phraseanet client secret": [
+      null,
+      ""
+   ],
+   "Token": [
+      null,
+      ""
+   ],
+   "Enter your Token": [
+      null,
+      ""
+   ],
+   "Generate token in phraseanet and add it here": [
+      null,
+      ""
+   ],
+   "Save": [
+      null,
+      ""
+   ],
+   "Phraseanet setting": [
+      null,
+      ""
+   ],
+   "Number of records per page": [
+      null,
+      ""
+   ],
+   "Enter Number Eg. 50": [
+      null,
+      ""
+   ],
+   "Default is 50 records per page": [
+      null,
+      ""
+   ],
+   "UI": [
+      null,
+      ""
+   ],
+   "Modal backgorund color": [
+      null,
+      ""
+   ],
+   "Color": [
+      null,
+      ""
+   ],
+   "to make it transparent or any color value like": [
+      null,
+      ""
+   ],
+   "Blue": [
+      null,
+      ""
+   ],
+   "to make solid background": [
+      null,
+      ""
+   ],
+   "Modal font color": [
+      null,
+      ""
+   ],
+   "White": [
+      null,
+      ""
+   ],
+   "Red": [
+      null,
+      ""
+   ],
+   "or any": [
+      null,
+      ""
+   ],
+   "Invalid login creadentials!": [
+      null,
+      ""
+   ],
+   "Please submit valid Username and password": [
+      null,
+      ""
+   ],
+   "Phraseanet Login": [
+      null,
+      ""
+   ],
+   "Login": [
+      null,
+      ""
+   ],
+   "Search": [
+      null,
+      ""
+   ],
+   "Sort": [
+      null,
+      ""
+   ],
+   "Relevance": [
+      null,
+      ""
+   ],
+   "Created on": [
+      null,
+      ""
+   ],
+   "Updated on": [
+      null,
+      ""
+   ],
+   "Order by": [
+      null,
+      ""
+   ],
+   "Ascending": [
+      null,
+      ""
+   ],
+   "Descending": [
+      null,
+      ""
+   ]
+}

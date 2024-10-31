@@ -1,0 +1,26 @@
+{
+    "name": "phraseanet/wordpress-plugin",
+    "type": "plugin",
+    "description": "This plugin creates the possibility to get and add assets from Phraseanet server into your wordpress website. This plugin allows you to create a phraseanet Gutenberg block with various custom configurations that's allows you to customize the block the way you want.",
+    "license": "GPL-3.0",
+  
+    "autoload": {
+        "psr-0": {
+            "Alchemy": "src"
+        }
+    },
+    
+        "repositories": [
+            {
+                "type": "path",
+                "url": "DEV-SDK/phraseanet-dev/php-sdk-dev"
+            }
+        ],
+        "require": {
+            "php": "^7.0",
+            "phraseanet/php-sdk": "@dev"
+        }
+    
+
+
+}

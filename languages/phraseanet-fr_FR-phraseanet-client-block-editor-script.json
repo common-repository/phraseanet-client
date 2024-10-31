@@ -1,0 +1,201 @@
+{
+   "": {
+      "project-id-version": "phraseanet_client",
+      "report-msgid-bugs-to": "",
+      "last-translator": "Nicolas Maillat <maillat@alchemy.fr>",
+      "language-team": "French <https://hosted.weblate.org/projects/phraseanet-wordpress-client-plugin/phraseanet-wordpress-client-plugin/fr/>",
+      "mime-version": "1.0",
+      "content-type": "text/plain; charset=UTF-8",
+      "content-transfer-encoding": "8bit",
+      "pot-creation-date": "2021-05-17 18:43+0530",
+      "po-revision-date": "2021-05-20 16:36+0000",
+      "language": "fr_FR",
+      "plural-forms": "nplurals=2; plural=(n!=1);",
+      "x-generator": "Weblate 4.7-dev",
+      "x-poedit-basepath": "..",
+      "x-poedit-keywordslist": "_;__;_e",
+      "x-poedit-searchpath-0": "public",
+      "x-poedit-searchpath-1": "admin/partials",
+      "x-poedit-searchpath-2": "dist/editor.js"
+   },
+   "Phraseanet client plugin": [
+      null,
+      "Plugin client Phraseanet"
+   ],
+   "Auth Phraseanet with token": [
+      null,
+      "Auth Phraseanet avec jeton"
+   ],
+   "Auth Phraseanet with username and password": [
+      null,
+      "Auth Phraseanet avec nom d'utilisateur et mot de passe"
+   ],
+   "Phraseanet URL": [
+      null,
+      "URL de Phraseanet"
+   ],
+   "Username": [
+      null,
+      "Nom d'utilisateur"
+   ],
+   "Enter your phraseanet Username": [
+      null,
+      "Entrez votre nom d'utilisateur phraseanet"
+   ],
+   "Password": [
+      null,
+      "Mot de passe"
+   ],
+   "Enter your phraseanet Password": [
+      null,
+      "Entrez votre mot de passe phraseanet"
+   ],
+   "Enter your phraseanet client id": [
+      null,
+      "Entrez votre identifiant de client phraseanet"
+   ],
+   "Enter your phraseanet client secret": [
+      null,
+      "Entrez votre secret client phraseanet"
+   ],
+   "Token": [
+      null,
+      "Jeton"
+   ],
+   "Enter your Token": [
+      null,
+      "Entrez votre jeton"
+   ],
+   "Generate token in phraseanet and add it here": [
+      null,
+      "Générez un jeton dans phraseanet et ajoutez-le ici"
+   ],
+   "Save": [
+      null,
+      "Sauvegarder"
+   ],
+   "Phraseanet setting": [
+      null,
+      "Paramètre Phraseanet"
+   ],
+   "Number of records per page": [
+      null,
+      "Nombre d'enregistrements par page"
+   ],
+   "Enter Number Eg. 50": [
+      null,
+      "Entrer un nombre Eg 50"
+   ],
+   "Default is 50 records per page": [
+      null,
+      "La valeur par défaut est de 50 enregistrements par page"
+   ],
+   "UI": [
+      null,
+      ""
+   ],
+   "Modal backgorund color": [
+      null,
+      "Couleur de fond modal"
+   ],
+   "Color": [
+      null,
+      "Couleur"
+   ],
+   "to make it transparent or any color value like": [
+      null,
+      "pour le rendre transparent ou toute valeur de couleur comme"
+   ],
+   "Blue": [
+      null,
+      "Bleu"
+   ],
+   "to make solid background": [
+      null,
+      "faire un fond solide"
+   ],
+   "Modal font color": [
+      null,
+      "Couleur de police modale"
+   ],
+   "White": [
+      null,
+      "Blanc"
+   ],
+   "Red": [
+      null,
+      "Rouge"
+   ],
+   "or any": [
+      null,
+      "ou tout"
+   ],
+   "Invalid login creadentials!": [
+      null,
+      "Authentification invalide!"
+   ],
+   "Please submit valid Username and password": [
+      null,
+      "Veuillez soumettre un nom d'utilisateur et un mot de passe valides"
+   ],
+   "Phraseanet Login": [
+      null,
+      "Connexion Phraseanet"
+   ],
+   "Login": [
+      null,
+      "Connexion"
+   ],
+   "Search": [
+      null,
+      "Rechercher"
+   ],
+   "All": [
+      null,
+      "Tout"
+   ],
+   "Images": [
+      null,
+      "Images"
+   ],
+   "Videos": [
+      null,
+      "Vidéos"
+   ],
+   "Record": [
+      null,
+      "Enregistrer"
+   ],
+   "Story": [
+      null,
+      "Histoire"
+   ],
+   "Sort": [
+      null,
+      "Sorte"
+   ],
+   "Relevance": [
+      null,
+      "Pertinence"
+   ],
+   "Created on": [
+      null,
+      "Créé sur"
+   ],
+   "Updated on": [
+      null,
+      "Mis à jour le"
+   ],
+   "Order by": [
+      null,
+      "Commandé par"
+   ],
+   "Ascending": [
+      null,
+      "Ascendant"
+   ],
+   "Descending": [
+      null,
+      "Descendant"
+   ]
+}
